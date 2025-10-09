@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NBA 3-Point Era Exploratory Visuals</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+    <script defer src="js/charts.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>NBA 3-Point Era Exploratory Visuals</h1>
+      <p>Interactive prototypes generated with D3.js. The original static SVG exports remain in <code>figures/</code>.</p>
+    </header>
+
+    <main>
+      <section id="league-trend" class="card">
+        <h2>League Three-Point Attempts & Accuracy</h2>
+        <p>Dual-axis line chart showing league 3PA per game and 3P% (1979–2025).</p>
+        <div class="chart" data-chart="leagueTrend"></div>
+        <p class="data-source" data-source="leagueTrend"></p>
+      </section>
+
+      <section id="volume-efficiency" class="card">
+        <h2>Volume vs Efficiency Snapshots</h2>
+        <p>Team-level scatter panels for 2000, 2010, 2020, and 2025 seasons.</p>
+        <div class="chart grid" data-chart="volumeEfficiency"></div>
+        <p class="data-source" data-source="volumeEfficiency"></p>
+      </section>
+
+      <section id="curry-comparison" class="card">
+        <h2>Stephen Curry vs League Average</h2>
+        <p>Compare Curry&#39;s 3PA per game to the average player since 2010.</p>
+        <div class="chart" data-chart="curryComparison"></div>
+        <p class="data-source" data-source="curryComparison"></p>
+      </section>
+
+      <section id="position-share" class="card">
+        <h2>Share of League 3PA by Position</h2>
+        <p>Multi-line chart showing positional contributions to league three-point volume.</p>
+        <div class="chart" data-chart="positionShare"></div>
+        <p class="data-source" data-source="positionShare"></p>
+      </section>
+
+      <section id="shot-profile" class="card">
+        <h2>Shot Profile Migration</h2>
+        <p>Track how three-point share displaced midrange attempts over time.</p>
+        <div class="chart" data-chart="shotProfile"></div>
+        <p class="data-source" data-source="shotProfile"></p>
+      </section>
+
+      <section id="team-adoption" class="card">
+        <h2>Team Adoption of ≥40% 3PA Rate</h2>
+        <p>Scatter plot linking adoption season to net rating.</p>
+        <div class="chart" data-chart="teamAdoption"></div>
+        <p class="data-source" data-source="teamAdoption"></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Data sourced from Basketball-Reference via Kaggle (local CSV extracts). Scripts live in <code>analysis/</code>.</p>
+    </footer>
+  </body>
+</html>

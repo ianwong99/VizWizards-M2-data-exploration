@@ -1,0 +1,322 @@
+{
+  "curry": [
+    {
+      "season": 2010,
+      "team": "GSW",
+      "x3pa_per_game": 4.8,
+      "x3p_percent": 0.437
+    },
+    {
+      "season": 2011,
+      "team": "GSW",
+      "x3pa_per_game": 4.6,
+      "x3p_percent": 0.442
+    },
+    {
+      "season": 2012,
+      "team": "GSW",
+      "x3pa_per_game": 4.7,
+      "x3p_percent": 0.455
+    },
+    {
+      "season": 2013,
+      "team": "GSW",
+      "x3pa_per_game": 7.7,
+      "x3p_percent": 0.453
+    },
+    {
+      "season": 2014,
+      "team": "GSW",
+      "x3pa_per_game": 7.9,
+      "x3p_percent": 0.424
+    },
+    {
+      "season": 2015,
+      "team": "GSW",
+      "x3pa_per_game": 8.1,
+      "x3p_percent": 0.443
+    },
+    {
+      "season": 2016,
+      "team": "GSW",
+      "x3pa_per_game": 11.2,
+      "x3p_percent": 0.454
+    },
+    {
+      "season": 2017,
+      "team": "GSW",
+      "x3pa_per_game": 10.0,
+      "x3p_percent": 0.411
+    },
+    {
+      "season": 2018,
+      "team": "GSW",
+      "x3pa_per_game": 9.8,
+      "x3p_percent": 0.423
+    },
+    {
+      "season": 2019,
+      "team": "GSW",
+      "x3pa_per_game": 11.7,
+      "x3p_percent": 0.437
+    },
+    {
+      "season": 2020,
+      "team": "GSW",
+      "x3pa_per_game": 9.8,
+      "x3p_percent": 0.245
+    },
+    {
+      "season": 2021,
+      "team": "GSW",
+      "x3pa_per_game": 12.7,
+      "x3p_percent": 0.421
+    },
+    {
+      "season": 2022,
+      "team": "GSW",
+      "x3pa_per_game": 11.7,
+      "x3p_percent": 0.38
+    },
+    {
+      "season": 2023,
+      "team": "GSW",
+      "x3pa_per_game": 11.4,
+      "x3p_percent": 0.427
+    },
+    {
+      "season": 2024,
+      "team": "GSW",
+      "x3pa_per_game": 11.8,
+      "x3p_percent": 0.408
+    },
+    {
+      "season": 2025,
+      "team": "GSW",
+      "x3pa_per_game": 11.2,
+      "x3p_percent": 0.397
+    }
+  ],
+  "league_avg_player_3pa_per_game": [
+    {
+      "season": 1968,
+      "avg_player_3pa_per_game": 0.40210526315789474
+    },
+    {
+      "season": 1969,
+      "avg_player_3pa_per_game": 0.5070422535211268
+    },
+    {
+      "season": 1970,
+      "avg_player_3pa_per_game": 0.5280193236714976
+    },
+    {
+      "season": 1971,
+      "avg_player_3pa_per_game": 0.554
+    },
+    {
+      "season": 1972,
+      "avg_player_3pa_per_game": 0.4903061224489796
+    },
+    {
+      "season": 1973,
+      "avg_player_3pa_per_game": 0.37151898734177213
+    },
+    {
+      "season": 1974,
+      "avg_player_3pa_per_game": 0.4215116279069767
+    },
+    {
+      "season": 1975,
+      "avg_player_3pa_per_game": 0.4534722222222222
+    },
+    {
+      "season": 1976,
+      "avg_player_3pa_per_game": 0.33885350318471336
+    },
+    {
+      "season": 1980,
+      "avg_player_3pa_per_game": 0.23781512605042018
+    },
+    {
+      "season": 1981,
+      "avg_player_3pa_per_game": 0.19035812672176308
+    },
+    {
+      "season": 1982,
+      "avg_player_3pa_per_game": 0.19839142091152814
+    },
+    {
+      "season": 1983,
+      "avg_player_3pa_per_game": 0.1867007672634271
+    },
+    {
+      "season": 1984,
+      "avg_player_3pa_per_game": 0.20699708454810495
+    },
+    {
+      "season": 1985,
+      "avg_player_3pa_per_game": 0.2511049723756906
+    },
+    {
+      "season": 1986,
+      "avg_player_3pa_per_game": 0.2899736147757256
+    },
+    {
+      "season": 1987,
+      "avg_player_3pa_per_game": 0.3753968253968254
+    },
+    {
+      "season": 1988,
+      "avg_player_3pa_per_game": 0.4291079812206573
+    },
+    {
+      "season": 1989,
+      "avg_player_3pa_per_game": 0.5114155251141552
+    },
+    {
+      "season": 1990,
+      "avg_player_3pa_per_game": 0.514161220043573
+    },
+    {
+      "season": 1991,
+      "avg_player_3pa_per_game": 0.6002267573696145
+    },
+    {
+      "season": 1992,
+      "avg_player_3pa_per_game": 0.6111353711790393
+    },
+    {
+      "season": 1993,
+      "avg_player_3pa_per_game": 0.7033407572383074
+    },
+    {
+      "season": 1994,
+      "avg_player_3pa_per_game": 0.7532224532224532
+    },
+    {
+      "season": 1995,
+      "avg_player_3pa_per_game": 1.3028761061946903
+    },
+    {
+      "season": 1996,
+      "avg_player_3pa_per_game": 1.2677064220183487
+    },
+    {
+      "season": 1997,
+      "avg_player_3pa_per_game": 1.3285714285714285
+    },
+    {
+      "season": 1998,
+      "avg_player_3pa_per_game": 1.0740402193784278
+    },
+    {
+      "season": 1999,
+      "avg_player_3pa_per_game": 1.034319526627219
+    },
+    {
+      "season": 2000,
+      "avg_player_3pa_per_game": 1.0989919354838709
+    },
+    {
+      "season": 2001,
+      "avg_player_3pa_per_game": 1.0400372439478585
+    },
+    {
+      "season": 2002,
+      "avg_player_3pa_per_game": 1.2284
+    },
+    {
+      "season": 2003,
+      "avg_player_3pa_per_game": 1.2012422360248447
+    },
+    {
+      "season": 2004,
+      "avg_player_3pa_per_game": 1.1697435897435897
+    },
+    {
+      "season": 2005,
+      "avg_player_3pa_per_game": 1.3222222222222222
+    },
+    {
+      "season": 2006,
+      "avg_player_3pa_per_game": 1.2850799289520427
+    },
+    {
+      "season": 2007,
+      "avg_player_3pa_per_game": 1.4062015503875969
+    },
+    {
+      "season": 2008,
+      "avg_player_3pa_per_game": 1.3983193277310924
+    },
+    {
+      "season": 2009,
+      "avg_player_3pa_per_game": 1.50446735395189
+    },
+    {
+      "season": 2010,
+      "avg_player_3pa_per_game": 1.5058823529411764
+    },
+    {
+      "season": 2011,
+      "avg_player_3pa_per_game": 1.53712
+    },
+    {
+      "season": 2012,
+      "avg_player_3pa_per_game": 1.5092558983666062
+    },
+    {
+      "season": 2013,
+      "avg_player_3pa_per_game": 1.58848167539267
+    },
+    {
+      "season": 2014,
+      "avg_player_3pa_per_game": 1.6893617021276595
+    },
+    {
+      "season": 2015,
+      "avg_player_3pa_per_game": 1.8698924731182796
+    },
+    {
+      "season": 2016,
+      "avg_player_3pa_per_game": 1.9081314878892734
+    },
+    {
+      "season": 2017,
+      "avg_player_3pa_per_game": 2.1692436974789917
+    },
+    {
+      "season": 2018,
+      "avg_player_3pa_per_game": 2.2177710843373495
+    },
+    {
+      "season": 2019,
+      "avg_player_3pa_per_game": 2.5588983050847456
+    },
+    {
+      "season": 2020,
+      "avg_player_3pa_per_game": 2.6953917050691243
+    },
+    {
+      "season": 2021,
+      "avg_player_3pa_per_game": 2.7140425531914896
+    },
+    {
+      "season": 2022,
+      "avg_player_3pa_per_game": 2.5605911330049262
+    },
+    {
+      "season": 2023,
+      "avg_player_3pa_per_game": 2.783063328424153
+    },
+    {
+      "season": 2024,
+      "avg_player_3pa_per_game": 2.582448979591837
+    },
+    {
+      "season": 2025,
+      "avg_player_3pa_per_game": 2.8504761904761904
+    }
+  ]
+}

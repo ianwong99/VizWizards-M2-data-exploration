@@ -1,0 +1,292 @@
+[
+  {
+    "season": 1997,
+    "percent_fga_from_x2p_range": 0.8044518388791594,
+    "percent_fga_from_x0_3_range": 0.3743520140105079,
+    "percent_fga_from_x3_10_range": 0.1491120840630473,
+    "percent_fga_from_x10_16_range": 0.1372171628721541,
+    "percent_fga_from_x16_3p_range": 0.14350262697022767,
+    "percent_fga_from_x3p_range": 0.19556217162872155,
+    "avg_dist_fga": 12.470753064798599
+  },
+  {
+    "season": 1998,
+    "percent_fga_from_x2p_range": 0.8422261029411765,
+    "percent_fga_from_x0_3_range": 0.295125,
+    "percent_fga_from_x3_10_range": 0.18055882352941177,
+    "percent_fga_from_x10_16_range": 0.15444485294117646,
+    "percent_fga_from_x16_3p_range": 0.21207904411764705,
+    "percent_fga_from_x3p_range": 0.15777389705882353,
+    "avg_dist_fga": 12.44264705882353
+  },
+  {
+    "season": 1999,
+    "percent_fga_from_x2p_range": 0.844051689860835,
+    "percent_fga_from_x0_3_range": 0.27685089463220675,
+    "percent_fga_from_x3_10_range": 0.18966003976143142,
+    "percent_fga_from_x10_16_range": 0.1587375745526839,
+    "percent_fga_from_x16_3p_range": 0.2188727634194831,
+    "percent_fga_from_x3p_range": 0.15595228628230617,
+    "avg_dist_fga": 12.591252485089463
+  },
+  {
+    "season": 2000,
+    "percent_fga_from_x2p_range": 0.8442874493927125,
+    "percent_fga_from_x0_3_range": 0.27330364372469634,
+    "percent_fga_from_x3_10_range": 0.1917834008097166,
+    "percent_fga_from_x10_16_range": 0.1527408906882591,
+    "percent_fga_from_x16_3p_range": 0.2266072874493927,
+    "percent_fga_from_x3p_range": 0.15571457489878543,
+    "avg_dist_fga": 12.50748987854251
+  },
+  {
+    "season": 2001,
+    "percent_fga_from_x2p_range": 0.8501954887218045,
+    "percent_fga_from_x0_3_range": 0.2953966165413534,
+    "percent_fga_from_x3_10_range": 0.17178195488721804,
+    "percent_fga_from_x10_16_range": 0.15503007518796993,
+    "percent_fga_from_x16_3p_range": 0.22797368421052633,
+    "percent_fga_from_x3p_range": 0.14981015037593984,
+    "avg_dist_fga": 11.38063909774436
+  },
+  {
+    "season": 2002,
+    "percent_fga_from_x2p_range": 0.8357384305835011,
+    "percent_fga_from_x0_3_range": 0.31664386317907445,
+    "percent_fga_from_x3_10_range": 0.14737223340040242,
+    "percent_fga_from_x10_16_range": 0.14107444668008048,
+    "percent_fga_from_x16_3p_range": 0.23064185110663984,
+    "percent_fga_from_x3p_range": 0.16426760563380283,
+    "avg_dist_fga": 11.453521126760563
+  },
+  {
+    "season": 2003,
+    "percent_fga_from_x2p_range": 0.8430850622406639,
+    "percent_fga_from_x0_3_range": 0.3140103734439834,
+    "percent_fga_from_x3_10_range": 0.15569502074688796,
+    "percent_fga_from_x10_16_range": 0.13901867219917013,
+    "percent_fga_from_x16_3p_range": 0.23419917012448133,
+    "percent_fga_from_x3p_range": 0.1569149377593361,
+    "avg_dist_fga": 11.376348547717843
+  },
+  {
+    "season": 2004,
+    "percent_fga_from_x2p_range": 0.8413281786941581,
+    "percent_fga_from_x0_3_range": 0.3099381443298969,
+    "percent_fga_from_x3_10_range": 0.14806529209621994,
+    "percent_fga_from_x10_16_range": 0.1466237113402062,
+    "percent_fga_from_x16_3p_range": 0.2367044673539519,
+    "percent_fga_from_x3p_range": 0.15867525773195876,
+    "avg_dist_fga": 11.496735395189004
+  },
+  {
+    "season": 2005,
+    "percent_fga_from_x2p_range": 0.8187461406518011,
+    "percent_fga_from_x0_3_range": 0.32626758147512863,
+    "percent_fga_from_x3_10_range": 0.1354785591766724,
+    "percent_fga_from_x10_16_range": 0.12377530017152659,
+    "percent_fga_from_x16_3p_range": 0.2332246998284734,
+    "percent_fga_from_x3p_range": 0.1812572898799314,
+    "avg_dist_fga": 11.622984562607204
+  },
+  {
+    "season": 2006,
+    "percent_fga_from_x2p_range": 0.818432915921288,
+    "percent_fga_from_x0_3_range": 0.33732915921288015,
+    "percent_fga_from_x3_10_range": 0.14188908765652952,
+    "percent_fga_from_x10_16_range": 0.11516636851520573,
+    "percent_fga_from_x16_3p_range": 0.22412701252236136,
+    "percent_fga_from_x3p_range": 0.1815778175313059,
+    "avg_dist_fga": 11.444364937388194
+  },
+  {
+    "season": 2007,
+    "percent_fga_from_x2p_range": 0.8010233918128655,
+    "percent_fga_from_x0_3_range": 0.3418421052631579,
+    "percent_fga_from_x3_10_range": 0.13206237816764133,
+    "percent_fga_from_x10_16_range": 0.10795126705653021,
+    "percent_fga_from_x16_3p_range": 0.21923001949317739,
+    "percent_fga_from_x3p_range": 0.1989805068226121,
+    "avg_dist_fga": 11.644444444444444
+  },
+  {
+    "season": 2008,
+    "percent_fga_from_x2p_range": 0.7915143338954469,
+    "percent_fga_from_x0_3_range": 0.3330674536256324,
+    "percent_fga_from_x3_10_range": 0.12606070826306914,
+    "percent_fga_from_x10_16_range": 0.10866779089376054,
+    "percent_fga_from_x16_3p_range": 0.2237183811129848,
+    "percent_fga_from_x3p_range": 0.20848735244519392,
+    "avg_dist_fga": 11.92158516020236
+  },
+  {
+    "season": 2009,
+    "percent_fga_from_x2p_range": 0.7864342560553633,
+    "percent_fga_from_x0_3_range": 0.3404342560553633,
+    "percent_fga_from_x3_10_range": 0.12573875432525952,
+    "percent_fga_from_x10_16_range": 0.10254498269896194,
+    "percent_fga_from_x16_3p_range": 0.21770934256055363,
+    "percent_fga_from_x3p_range": 0.21356920415224914,
+    "avg_dist_fga": 11.830276816608997
+  },
+  {
+    "season": 2010,
+    "percent_fga_from_x2p_range": 0.7837478260869565,
+    "percent_fga_from_x0_3_range": 0.3401669565217391,
+    "percent_fga_from_x3_10_range": 0.12645739130434783,
+    "percent_fga_from_x10_16_range": 0.09934608695652174,
+    "percent_fga_from_x16_3p_range": 0.21772173913043477,
+    "percent_fga_from_x3p_range": 0.21625391304347827,
+    "avg_dist_fga": 11.903478260869566
+  },
+  {
+    "season": 2011,
+    "percent_fga_from_x2p_range": 0.7797765273311897,
+    "percent_fga_from_x0_3_range": 0.29737299035369774,
+    "percent_fga_from_x3_10_range": 0.17076688102893892,
+    "percent_fga_from_x10_16_range": 0.09984244372990354,
+    "percent_fga_from_x16_3p_range": 0.21183118971061093,
+    "percent_fga_from_x3p_range": 0.2202282958199357,
+    "avg_dist_fga": 12.394372990353698
+  },
+  {
+    "season": 2012,
+    "percent_fga_from_x2p_range": 0.7837386569872958,
+    "percent_fga_from_x0_3_range": 0.3206406533575318,
+    "percent_fga_from_x3_10_range": 0.1682994555353902,
+    "percent_fga_from_x10_16_range": 0.10257350272232305,
+    "percent_fga_from_x16_3p_range": 0.19221234119782213,
+    "percent_fga_from_x3p_range": 0.21626134301270417,
+    "avg_dist_fga": 11.926678765880217
+  },
+  {
+    "season": 2013,
+    "percent_fga_from_x2p_range": 0.7633690685413005,
+    "percent_fga_from_x0_3_range": 0.307622144112478,
+    "percent_fga_from_x3_10_range": 0.1678066783831283,
+    "percent_fga_from_x10_16_range": 0.09914411247803163,
+    "percent_fga_from_x16_3p_range": 0.1887785588752197,
+    "percent_fga_from_x3p_range": 0.23663620386643233,
+    "avg_dist_fga": 12.374868189806678
+  },
+  {
+    "season": 2014,
+    "percent_fga_from_x2p_range": 0.7346324503311258,
+    "percent_fga_from_x0_3_range": 0.2905132450331126,
+    "percent_fga_from_x3_10_range": 0.18712086092715233,
+    "percent_fga_from_x10_16_range": 0.09561920529801325,
+    "percent_fga_from_x16_3p_range": 0.16128476821192053,
+    "percent_fga_from_x3p_range": 0.26537417218543047,
+    "avg_dist_fga": 12.496688741721854
+  },
+  {
+    "season": 2015,
+    "percent_fga_from_x2p_range": 0.7182388289676426,
+    "percent_fga_from_x0_3_range": 0.29935747303543914,
+    "percent_fga_from_x3_10_range": 0.16857164869029276,
+    "percent_fga_from_x10_16_range": 0.09120647149460709,
+    "percent_fga_from_x16_3p_range": 0.1590693374422188,
+    "percent_fga_from_x3p_range": 0.2817657935285054,
+    "avg_dist_fga": 12.270724191063174
+  },
+  {
+    "season": 2016,
+    "percent_fga_from_x2p_range": 0.7100069565217392,
+    "percent_fga_from_x0_3_range": 0.3106591304347826,
+    "percent_fga_from_x3_10_range": 0.15909739130434783,
+    "percent_fga_from_x10_16_range": 0.09108869565217391,
+    "percent_fga_from_x16_3p_range": 0.14923130434782608,
+    "percent_fga_from_x3p_range": 0.2899982608695652,
+    "avg_dist_fga": 12.269739130434782
+  },
+  {
+    "season": 2017,
+    "percent_fga_from_x2p_range": 0.6784232715008431,
+    "percent_fga_from_x0_3_range": 0.30938617200674534,
+    "percent_fga_from_x3_10_range": 0.15316863406408093,
+    "percent_fga_from_x10_16_range": 0.08467790893760539,
+    "percent_fga_from_x16_3p_range": 0.13070489038785835,
+    "percent_fga_from_x3p_range": 0.3215767284991568,
+    "avg_dist_fga": 13.05362563237774
+  },
+  {
+    "season": 2018,
+    "percent_fga_from_x2p_range": 0.6578060606060606,
+    "percent_fga_from_x0_3_range": 0.30399545454545457,
+    "percent_fga_from_x3_10_range": 0.15877272727272726,
+    "percent_fga_from_x10_16_range": 0.0911469696969697,
+    "percent_fga_from_x16_3p_range": 0.10376666666666666,
+    "percent_fga_from_x3p_range": 0.3422060606060606,
+    "avg_dist_fga": 12.757272727272728
+  },
+  {
+    "season": 2019,
+    "percent_fga_from_x2p_range": 0.6199444444444444,
+    "percent_fga_from_x0_3_range": 0.3018831908831909,
+    "percent_fga_from_x3_10_range": 0.15462535612535613,
+    "percent_fga_from_x10_16_range": 0.08298575498575499,
+    "percent_fga_from_x16_3p_range": 0.0804045584045584,
+    "percent_fga_from_x3p_range": 0.38005982905982905,
+    "avg_dist_fga": 13.686182336182336
+  },
+  {
+    "season": 2020,
+    "percent_fga_from_x2p_range": 0.6070770416024653,
+    "percent_fga_from_x0_3_range": 0.3060231124807396,
+    "percent_fga_from_x3_10_range": 0.16007704160246533,
+    "percent_fga_from_x10_16_range": 0.07299075500770416,
+    "percent_fga_from_x16_3p_range": 0.0680015408320493,
+    "percent_fga_from_x3p_range": 0.3929260400616333,
+    "avg_dist_fga": 13.672573189522343
+  },
+  {
+    "season": 2021,
+    "percent_fga_from_x2p_range": 0.6078221906116643,
+    "percent_fga_from_x0_3_range": 0.2813655761024182,
+    "percent_fga_from_x3_10_range": 0.18131721194879089,
+    "percent_fga_from_x10_16_range": 0.08087339971550497,
+    "percent_fga_from_x16_3p_range": 0.06423897581792319,
+    "percent_fga_from_x3p_range": 0.3921863442389758,
+    "avg_dist_fga": 13.721621621621622
+  },
+  {
+    "season": 2022,
+    "percent_fga_from_x2p_range": 0.5995156838143036,
+    "percent_fga_from_x0_3_range": 0.26598368883312423,
+    "percent_fga_from_x3_10_range": 0.18222961104140528,
+    "percent_fga_from_x10_16_range": 0.08368632371392723,
+    "percent_fga_from_x16_3p_range": 0.06765370138017567,
+    "percent_fga_from_x3p_range": 0.4004905897114178,
+    "avg_dist_fga": 14.023086574654956
+  },
+  {
+    "season": 2023,
+    "percent_fga_from_x2p_range": 0.5888846153846153,
+    "percent_fga_from_x0_3_range": 0.25837869822485204,
+    "percent_fga_from_x3_10_range": 0.19766715976331362,
+    "percent_fga_from_x10_16_range": 0.07812278106508876,
+    "percent_fga_from_x16_3p_range": 0.05228402366863905,
+    "percent_fga_from_x3p_range": 0.4111198224852071,
+    "avg_dist_fga": 13.914497041420118
+  },
+  {
+    "season": 2024,
+    "percent_fga_from_x2p_range": 0.58914030261348,
+    "percent_fga_from_x0_3_range": 0.2594828060522696,
+    "percent_fga_from_x3_10_range": 0.20480330123796422,
+    "percent_fga_from_x10_16_range": 0.07776616231086658,
+    "percent_fga_from_x16_3p_range": 0.047039889958734524,
+    "percent_fga_from_x3p_range": 0.41086657496561213,
+    "avg_dist_fga": 13.889958734525447
+  },
+  {
+    "season": 2025,
+    "percent_fga_from_x2p_range": 0.5809890560875512,
+    "percent_fga_from_x0_3_range": 0.24671135430916552,
+    "percent_fga_from_x3_10_range": 0.2155280437756498,
+    "percent_fga_from_x10_16_range": 0.0804829001367989,
+    "percent_fga_from_x16_3p_range": 0.038331053351573184,
+    "percent_fga_from_x3p_range": 0.4190123119015048,
+    "avg_dist_fga": 14.05827633378933
+  }
+]

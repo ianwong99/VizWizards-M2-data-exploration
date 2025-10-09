@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="460" viewBox="0 0 880 460">
+<style>text{font-family:Helvetica,Arial,sans-serif;font-size:12px;fill:#333;} .title{font-size:18px;font-weight:bold;}</style>
+<text class="title" x="440.0" y="30.0" text-anchor="middle">Shot Selection Migration</text>
+<rect x="70" y="40" width="740" height="360" fill="none" stroke="#ccc"/>
+<line x1="65" y1="400.00" x2="70" y2="400.00" stroke="#666"/>
+<text x="60" y="404.00" text-anchor="end">0%</text>
+<line x1="65" y1="328.00" x2="70" y2="328.00" stroke="#666"/>
+<text x="60" y="332.00" text-anchor="end">9%</text>
+<line x1="70" y1="328.00" x2="810" y2="328.00" stroke="#eee"/>
+<line x1="65" y1="256.00" x2="70" y2="256.00" stroke="#666"/>
+<text x="60" y="260.00" text-anchor="end">18%</text>
+<line x1="70" y1="256.00" x2="810" y2="256.00" stroke="#eee"/>
+<line x1="65" y1="184.00" x2="70" y2="184.00" stroke="#666"/>
+<text x="60" y="188.00" text-anchor="end">26%</text>
+<line x1="70" y1="184.00" x2="810" y2="184.00" stroke="#eee"/>
+<line x1="65" y1="112.00" x2="70" y2="112.00" stroke="#666"/>
+<text x="60" y="116.00" text-anchor="end">35%</text>
+<line x1="70" y1="112.00" x2="810" y2="112.00" stroke="#eee"/>
+<line x1="65" y1="40.00" x2="70" y2="40.00" stroke="#666"/>
+<text x="60" y="44.00" text-anchor="end">44%</text>
+<text x="25" y="220.0" transform="rotate(-90 25 220.0)" text-anchor="middle">Share of FGA</text>
+<line x1="70.00" y1="400" x2="70.00" y2="405" stroke="#666"/>
+<text x="70.00" y="420" text-anchor="middle">1997</text>
+<line x1="122.86" y1="400" x2="122.86" y2="405" stroke="#666"/>
+<text x="122.86" y="420" text-anchor="middle">1999</text>
+<line x1="175.71" y1="400" x2="175.71" y2="405" stroke="#666"/>
+<text x="175.71" y="420" text-anchor="middle">2001</text>
+<line x1="228.57" y1="400" x2="228.57" y2="405" stroke="#666"/>
+<text x="228.57" y="420" text-anchor="middle">2003</text>
+<line x1="281.43" y1="400" x2="281.43" y2="405" stroke="#666"/>
+<text x="281.43" y="420" text-anchor="middle">2005</text>
+<line x1="334.29" y1="400" x2="334.29" y2="405" stroke="#666"/>
+<text x="334.29" y="420" text-anchor="middle">2007</text>
+<line x1="387.14" y1="400" x2="387.14" y2="405" stroke="#666"/>
+<text x="387.14" y="420" text-anchor="middle">2009</text>
+<line x1="440.00" y1="400" x2="440.00" y2="405" stroke="#666"/>
+<text x="440.00" y="420" text-anchor="middle">2011</text>
+<line x1="492.86" y1="400" x2="492.86" y2="405" stroke="#666"/>
+<text x="492.86" y="420" text-anchor="middle">2013</text>
+<line x1="545.71" y1="400" x2="545.71" y2="405" stroke="#666"/>
+<text x="545.71" y="420" text-anchor="middle">2015</text>
+<line x1="598.57" y1="400" x2="598.57" y2="405" stroke="#666"/>
+<text x="598.57" y="420" text-anchor="middle">2017</text>
+<line x1="651.43" y1="400" x2="651.43" y2="405" stroke="#666"/>
+<text x="651.43" y="420" text-anchor="middle">2019</text>
+<line x1="704.29" y1="400" x2="704.29" y2="405" stroke="#666"/>
+<text x="704.29" y="420" text-anchor="middle">2021</text>
+<line x1="757.14" y1="400" x2="757.14" y2="405" stroke="#666"/>
+<text x="757.14" y="420" text-anchor="middle">2023</text>
+<line x1="810.00" y1="400" x2="810.00" y2="405" stroke="#666"/>
+<text x="810.00" y="420" text-anchor="middle">2025</text>
+<path d="M 70.00 239.98 L 96.43 270.90 L 122.86 272.39 L 149.29 272.59 L 175.71 277.42 L 202.14 265.59 L 228.57 271.60 L 255.00 270.16 L 281.43 251.69 L 307.86 251.42 L 334.29 237.18 L 360.71 229.41 L 387.14 225.25 L 413.57 223.05 L 440.00 219.80 L 466.43 223.04 L 492.86 206.37 L 519.29 182.86 L 545.71 169.44 L 572.14 162.71 L 598.57 136.87 L 625.00 119.99 L 651.43 89.02 L 677.86 78.49 L 704.29 79.09 L 730.71 72.30 L 757.14 63.60 L 783.57 63.81 L 810.00 57.14" fill="none" stroke="#1f77b4" stroke-width="2.5"/>
+<path d="M 70.00 287.72 L 96.43 273.63 L 122.86 270.11 L 149.29 275.02 L 175.71 273.15 L 202.14 284.57 L 228.57 286.25 L 255.00 280.03 L 281.43 298.72 L 307.86 305.77 L 334.29 311.67 L 360.71 311.08 L 387.14 316.09 L 413.57 318.71 L 440.00 318.30 L 466.43 316.07 L 492.86 318.88 L 519.29 321.76 L 545.71 325.37 L 572.14 325.47 L 598.57 330.71 L 625.00 325.42 L 651.43 332.10 L 677.86 340.28 L 704.29 333.83 L 730.71 331.52 L 757.14 336.08 L 783.57 336.37 L 810.00 334.14" fill="none" stroke="#d62728" stroke-width="2" stroke-dasharray="6 4"/>
+<path d="M 70.00 282.58 L 96.43 226.47 L 122.86 220.91 L 149.29 214.58 L 175.71 213.46 L 202.14 211.28 L 228.57 208.37 L 255.00 206.32 L 281.43 209.16 L 307.86 216.61 L 334.29 220.61 L 360.71 216.94 L 387.14 221.86 L 413.57 221.85 L 440.00 226.67 L 466.43 242.72 L 492.86 245.53 L 519.29 268.03 L 545.71 269.84 L 572.14 277.89 L 598.57 293.05 L 625.00 315.09 L 651.43 334.21 L 677.86 344.36 L 704.29 347.44 L 730.71 344.64 L 757.14 357.22 L 783.57 361.51 L 810.00 368.64" fill="none" stroke="#9467bd" stroke-width="2" stroke-dasharray="3 3"/>
+<line x1="80" y1="50" x2="98" y2="50" stroke="#1f77b4" stroke-width="3" stroke-dasharray="solid"/>
+<text x="104" y="54" text-anchor="start">Above-the-arc 3PA share</text>
+<line x1="80" y1="68" x2="98" y2="68" stroke="#9467bd" stroke-width="3" stroke-dasharray="3 3"/>
+<text x="104" y="72" text-anchor="start">Long midrange (16ft-3pt)</text>
+<line x1="80" y1="86" x2="98" y2="86" stroke="#d62728" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="104" y="90" text-anchor="start">Classic midrange (10-16ft)</text>
+</svg>

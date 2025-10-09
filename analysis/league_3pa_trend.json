@@ -1,0 +1,277 @@
+[
+  {
+    "season": 1968,
+    "avg_3pa_per_game": 4.983333333333333,
+    "avg_3p_percent": 0.27175
+  },
+  {
+    "season": 1969,
+    "avg_3pa_per_game": 5.891666666666667,
+    "avg_3p_percent": 0.28541666666666665
+  },
+  {
+    "season": 1970,
+    "avg_3pa_per_game": 6.325,
+    "avg_3p_percent": 0.28491666666666665
+  },
+  {
+    "season": 1971,
+    "avg_3pa_per_game": 6.133333333333333,
+    "avg_3p_percent": 0.29041666666666666
+  },
+  {
+    "season": 1972,
+    "avg_3pa_per_game": 5.258333333333334,
+    "avg_3p_percent": 0.29491666666666666
+  },
+  {
+    "season": 1973,
+    "avg_3pa_per_game": 3.7636363636363637,
+    "avg_3p_percent": 0.28345454545454546
+  },
+  {
+    "season": 1974,
+    "avg_3pa_per_game": 4.2,
+    "avg_3p_percent": 0.27345454545454545
+  },
+  {
+    "season": 1975,
+    "avg_3pa_per_game": 3.7,
+    "avg_3p_percent": 0.27854545454545454
+  },
+  {
+    "season": 1976,
+    "avg_3pa_per_game": 3.79,
+    "avg_3p_percent": 0.2786
+  },
+  {
+    "season": 1980,
+    "avg_3pa_per_game": 2.769565217391304,
+    "avg_3p_percent": 0.2637391304347826
+  },
+  {
+    "season": 1981,
+    "avg_3pa_per_game": 2.0166666666666666,
+    "avg_3p_percent": 0.23
+  },
+  {
+    "season": 1982,
+    "avg_3pa_per_game": 2.2875,
+    "avg_3p_percent": 0.25295833333333334
+  },
+  {
+    "season": 1983,
+    "avg_3pa_per_game": 2.2541666666666664,
+    "avg_3p_percent": 0.231125
+  },
+  {
+    "season": 1984,
+    "avg_3pa_per_game": 2.375,
+    "avg_3p_percent": 0.2425
+  },
+  {
+    "season": 1985,
+    "avg_3pa_per_game": 3.1416666666666666,
+    "avg_3p_percent": 0.274
+  },
+  {
+    "season": 1986,
+    "avg_3pa_per_game": 3.3375,
+    "avg_3p_percent": 0.2688333333333333
+  },
+  {
+    "season": 1987,
+    "avg_3pa_per_game": 4.733333333333333,
+    "avg_3p_percent": 0.2906666666666667
+  },
+  {
+    "season": 1988,
+    "avg_3pa_per_game": 4.991666666666666,
+    "avg_3p_percent": 0.3067916666666667
+  },
+  {
+    "season": 1989,
+    "avg_3pa_per_game": 6.553846153846154,
+    "avg_3p_percent": 0.31184615384615383
+  },
+  {
+    "season": 1990,
+    "avg_3pa_per_game": 6.607142857142857,
+    "avg_3p_percent": 0.31664285714285717
+  },
+  {
+    "season": 1991,
+    "avg_3pa_per_game": 7.139285714285714,
+    "avg_3p_percent": 0.3148214285714286
+  },
+  {
+    "season": 1992,
+    "avg_3pa_per_game": 7.628571428571428,
+    "avg_3p_percent": 0.3256071428571429
+  },
+  {
+    "season": 1993,
+    "avg_3pa_per_game": 8.95,
+    "avg_3p_percent": 0.3314285714285714
+  },
+  {
+    "season": 1994,
+    "avg_3pa_per_game": 9.896428571428572,
+    "avg_3p_percent": 0.3322142857142857
+  },
+  {
+    "season": 1995,
+    "avg_3pa_per_game": 15.29642857142857,
+    "avg_3p_percent": 0.35875
+  },
+  {
+    "season": 1996,
+    "avg_3pa_per_game": 16.063333333333333,
+    "avg_3p_percent": 0.3653666666666667
+  },
+  {
+    "season": 1997,
+    "avg_3pa_per_game": 16.793333333333333,
+    "avg_3p_percent": 0.3596333333333333
+  },
+  {
+    "season": 1998,
+    "avg_3pa_per_game": 12.71,
+    "avg_3p_percent": 0.3439
+  },
+  {
+    "season": 1999,
+    "avg_3pa_per_game": 13.166666666666666,
+    "avg_3p_percent": 0.33636666666666665
+  },
+  {
+    "season": 2000,
+    "avg_3pa_per_game": 13.716666666666667,
+    "avg_3p_percent": 0.3529
+  },
+  {
+    "season": 2001,
+    "avg_3pa_per_game": 13.706666666666667,
+    "avg_3p_percent": 0.3519
+  },
+  {
+    "season": 2002,
+    "avg_3pa_per_game": 14.753333333333334,
+    "avg_3p_percent": 0.35183333333333333
+  },
+  {
+    "season": 2003,
+    "avg_3pa_per_game": 14.676666666666666,
+    "avg_3p_percent": 0.3467
+  },
+  {
+    "season": 2004,
+    "avg_3pa_per_game": 14.92,
+    "avg_3p_percent": 0.3455666666666667
+  },
+  {
+    "season": 2005,
+    "avg_3pa_per_game": 15.751612903225807,
+    "avg_3p_percent": 0.353258064516129
+  },
+  {
+    "season": 2006,
+    "avg_3pa_per_game": 15.983870967741936,
+    "avg_3p_percent": 0.3569032258064516
+  },
+  {
+    "season": 2007,
+    "avg_3pa_per_game": 16.938709677419354,
+    "avg_3p_percent": 0.3568387096774193
+  },
+  {
+    "season": 2008,
+    "avg_3pa_per_game": 18.106451612903225,
+    "avg_3p_percent": 0.36029032258064514
+  },
+  {
+    "season": 2009,
+    "avg_3pa_per_game": 18.13225806451613,
+    "avg_3p_percent": 0.36548387096774193
+  },
+  {
+    "season": 2010,
+    "avg_3pa_per_game": 18.135483870967743,
+    "avg_3p_percent": 0.35283870967741937
+  },
+  {
+    "season": 2011,
+    "avg_3pa_per_game": 18.00967741935484,
+    "avg_3p_percent": 0.3563225806451613
+  },
+  {
+    "season": 2012,
+    "avg_3pa_per_game": 18.387096774193548,
+    "avg_3p_percent": 0.3472903225806452
+  },
+  {
+    "season": 2013,
+    "avg_3pa_per_game": 19.967741935483872,
+    "avg_3p_percent": 0.35761290322580647
+  },
+  {
+    "season": 2014,
+    "avg_3pa_per_game": 21.53548387096774,
+    "avg_3p_percent": 0.3588064516129032
+  },
+  {
+    "season": 2015,
+    "avg_3pa_per_game": 22.40967741935484,
+    "avg_3p_percent": 0.3491290322580645
+  },
+  {
+    "season": 2016,
+    "avg_3pa_per_game": 24.083870967741934,
+    "avg_3p_percent": 0.3528064516129032
+  },
+  {
+    "season": 2017,
+    "avg_3pa_per_game": 27.003225806451614,
+    "avg_3p_percent": 0.35719354838709677
+  },
+  {
+    "season": 2018,
+    "avg_3pa_per_game": 28.996774193548386,
+    "avg_3p_percent": 0.36174193548387096
+  },
+  {
+    "season": 2019,
+    "avg_3pa_per_game": 32.00645161290323,
+    "avg_3p_percent": 0.3554838709677419
+  },
+  {
+    "season": 2020,
+    "avg_3pa_per_game": 34.10322580645161,
+    "avg_3p_percent": 0.3577741935483871
+  },
+  {
+    "season": 2021,
+    "avg_3pa_per_game": 34.63548387096774,
+    "avg_3p_percent": 0.36606451612903224
+  },
+  {
+    "season": 2022,
+    "avg_3pa_per_game": 35.18064516129032,
+    "avg_3p_percent": 0.3535806451612903
+  },
+  {
+    "season": 2023,
+    "avg_3pa_per_game": 34.20967741935484,
+    "avg_3p_percent": 0.36016129032258065
+  },
+  {
+    "season": 2024,
+    "avg_3pa_per_game": 35.10645161290323,
+    "avg_3p_percent": 0.3656774193548387
+  },
+  {
+    "season": 2025,
+    "avg_3pa_per_game": 37.58387096774194,
+    "avg_3p_percent": 0.35996774193548386
+  }
+]

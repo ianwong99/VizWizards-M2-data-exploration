@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="460" viewBox="0 0 880 460">
+<style>text{font-family:Helvetica,Arial,sans-serif;font-size:12px;fill:#333;} .title{font-size:18px;font-weight:bold;}</style>
+<text class="title" x="440.0" y="30.0" text-anchor="middle">League Three-Point Attempts and Efficiency Over Time</text>
+<rect x="70" y="40" width="740" height="360" fill="none" stroke="#ccc"/>
+<line x1="65" y1="400.00" x2="70" y2="400.00" stroke="#666"/>
+<text x="60" y="404.00" text-anchor="end">0.0</text>
+<line x1="65" y1="328.00" x2="70" y2="328.00" stroke="#666"/>
+<text x="60" y="332.00" text-anchor="end">7.9</text>
+<line x1="65" y1="256.00" x2="70" y2="256.00" stroke="#666"/>
+<text x="60" y="260.00" text-anchor="end">15.8</text>
+<line x1="65" y1="184.00" x2="70" y2="184.00" stroke="#666"/>
+<text x="60" y="188.00" text-anchor="end">23.7</text>
+<line x1="65" y1="112.00" x2="70" y2="112.00" stroke="#666"/>
+<text x="60" y="116.00" text-anchor="end">31.6</text>
+<line x1="65" y1="40.00" x2="70" y2="40.00" stroke="#666"/>
+<text x="60" y="44.00" text-anchor="end">39.5</text>
+<text x="25" y="220.0" transform="rotate(-90 25 220.0)" text-anchor="middle">League 3PA per game</text>
+<line x1="810" y1="400.00" x2="815" y2="400.00" stroke="#666"/>
+<text x="820" y="404.00">0.0</text>
+<line x1="810" y1="328.00" x2="815" y2="328.00" stroke="#666"/>
+<text x="820" y="332.00">7.7</text>
+<line x1="810" y1="256.00" x2="815" y2="256.00" stroke="#666"/>
+<text x="820" y="260.00">15.4</text>
+<line x1="810" y1="184.00" x2="815" y2="184.00" stroke="#666"/>
+<text x="820" y="188.00">23.1</text>
+<line x1="810" y1="112.00" x2="815" y2="112.00" stroke="#666"/>
+<text x="820" y="116.00">30.7</text>
+<line x1="810" y1="40.00" x2="815" y2="40.00" stroke="#666"/>
+<text x="820" y="44.00">38.4</text>
+<text x="860" y="220.0" transform="rotate(90 860 220.0)" text-anchor="middle">League 3P%</text>
+<line x1="70.00" y1="400" x2="70.00" y2="405" stroke="#666"/>
+<text x="70.00" y="420" text-anchor="middle">1968</text>
+<line x1="134.91" y1="400" x2="134.91" y2="405" stroke="#666"/>
+<text x="134.91" y="420" text-anchor="middle">1973</text>
+<line x1="238.77" y1="400" x2="238.77" y2="405" stroke="#666"/>
+<text x="238.77" y="420" text-anchor="middle">1981</text>
+<line x1="303.68" y1="400" x2="303.68" y2="405" stroke="#666"/>
+<text x="303.68" y="420" text-anchor="middle">1986</text>
+<line x1="368.60" y1="400" x2="368.60" y2="405" stroke="#666"/>
+<text x="368.60" y="420" text-anchor="middle">1991</text>
+<line x1="433.51" y1="400" x2="433.51" y2="405" stroke="#666"/>
+<text x="433.51" y="420" text-anchor="middle">1996</text>
+<line x1="498.42" y1="400" x2="498.42" y2="405" stroke="#666"/>
+<text x="498.42" y="420" text-anchor="middle">2001</text>
+<line x1="563.33" y1="400" x2="563.33" y2="405" stroke="#666"/>
+<text x="563.33" y="420" text-anchor="middle">2006</text>
+<line x1="628.25" y1="400" x2="628.25" y2="405" stroke="#666"/>
+<text x="628.25" y="420" text-anchor="middle">2011</text>
+<line x1="693.16" y1="400" x2="693.16" y2="405" stroke="#666"/>
+<text x="693.16" y="420" text-anchor="middle">2016</text>
+<line x1="758.07" y1="400" x2="758.07" y2="405" stroke="#666"/>
+<text x="758.07" y="420" text-anchor="middle">2021</text>
+<line x1="810.00" y1="400" x2="810.00" y2="405" stroke="#666"/>
+<text x="810.00" y="420" text-anchor="middle">2025</text>
+<line x1="70" y1="328.00" x2="810" y2="328.00" stroke="#eee"/>
+<line x1="70" y1="256.00" x2="810" y2="256.00" stroke="#eee"/>
+<line x1="70" y1="184.00" x2="810" y2="184.00" stroke="#eee"/>
+<line x1="70" y1="112.00" x2="810" y2="112.00" stroke="#eee"/>
+<path d="M 70.00 354.54 L 82.98 346.25 L 95.96 342.30 L 108.95 344.05 L 121.93 352.03 L 134.91 365.67 L 147.89 361.69 L 160.88 366.25 L 173.86 365.43 L 225.79 374.73 L 238.77 381.60 L 251.75 379.13 L 264.74 379.44 L 277.72 378.33 L 290.70 371.34 L 303.68 369.55 L 316.67 356.82 L 329.65 354.46 L 342.63 340.21 L 355.61 339.73 L 368.60 334.87 L 381.58 330.41 L 394.56 318.35 L 407.54 309.72 L 420.53 260.46 L 433.51 253.46 L 446.49 246.80 L 459.47 284.05 L 472.46 279.89 L 485.44 274.87 L 498.42 274.96 L 511.40 265.41 L 524.39 266.11 L 537.37 263.89 L 550.35 256.31 L 563.33 254.19 L 576.32 245.48 L 589.30 234.82 L 602.28 234.59 L 615.26 234.56 L 628.25 235.71 L 641.23 232.26 L 654.21 217.85 L 667.19 203.54 L 680.18 195.57 L 693.16 180.30 L 706.14 153.66 L 719.12 135.48 L 732.11 108.02 L 745.09 88.89 L 758.07 84.04 L 771.05 79.07 L 784.04 87.92 L 797.02 79.74 L 810.00 57.14" fill="none" stroke="#1f77b4" stroke-width="2.5"/>
+<path d="M 70.00 145.48 L 82.98 132.68 L 95.96 133.15 L 108.95 127.99 L 121.93 123.78 L 134.91 134.52 L 147.89 143.88 L 160.88 139.11 L 173.86 139.06 L 225.79 152.98 L 238.77 184.58 L 251.75 163.08 L 264.74 183.53 L 277.72 172.87 L 290.70 143.37 L 303.68 148.21 L 316.67 127.76 L 329.65 112.66 L 342.63 107.92 L 355.61 103.43 L 368.60 105.14 L 381.58 95.04 L 394.56 89.58 L 407.54 88.85 L 420.53 63.99 L 433.51 57.80 L 446.49 63.17 L 459.47 77.90 L 472.46 84.96 L 485.44 69.47 L 498.42 70.41 L 511.40 70.47 L 524.39 75.28 L 537.37 76.34 L 550.35 69.14 L 563.33 65.72 L 576.32 65.78 L 589.30 62.55 L 602.28 57.69 L 615.26 69.53 L 628.25 66.27 L 641.23 74.73 L 654.21 65.06 L 667.19 63.94 L 680.18 73.00 L 693.16 69.56 L 706.14 65.45 L 719.12 61.19 L 732.11 67.05 L 745.09 64.91 L 758.07 57.14 L 771.05 68.84 L 784.04 62.67 L 797.02 57.51 L 810.00 62.85" fill="none" stroke="#d62728" stroke-width="2.5" stroke-dasharray="6 4"/>
+<rect x="80" y="50" width="12" height="3" fill="#1f77b4"/>
+<text x="98" y="58" text-anchor="start">League 3PA per game</text>
+<line x1="80" y1="70" x2="92" y2="70" stroke="#d62728" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="98" y="74" text-anchor="start">League 3P%</text>
+</svg>
