@@ -32,6 +32,27 @@
       <section id="curry-comparison" class="card">
         <h2>Stephen Curry vs League Average</h2>
         <p>Compare Curry&#39;s 3PA per game to the average player since 2010.</p>
+        <div class="controls" data-controls="curryComparison">
+          <label for="player-search">Add players to compare:</label>
+          <div class="control-row">
+            <input
+              id="player-search"
+              type="text"
+              list="player-options"
+              placeholder="Type a player name (e.g., Damian Lillard)"
+              autocomplete="off"
+            />
+            <datalist id="player-options"></datalist>
+            <button type="button" data-action="add-player">Add</button>
+            <button type="button" data-action="clear-players" class="secondary">
+              Clear
+            </button>
+          </div>
+          <p class="control-hint">
+            Curry and league average remain visible. Use the field above to add or remove additional players.
+          </p>
+          <div class="chip-container" data-chip-list></div>
+        </div>
         <div class="chart" data-chart="curryComparison"></div>
         <p class="data-source" data-source="curryComparison"></p>
       </section>
@@ -39,6 +60,20 @@
       <section id="position-share" class="card">
         <h2>Share of League 3PA by Position</h2>
         <p>Multi-line chart showing positional contributions to league three-point volume.</p>
+        <div class="controls" data-controls="positionShare">
+          <label for="position-player-search">Overlay player 3PA share by position:</label>
+          <div class="control-row">
+            <select id="position-player-search"></select>
+            <button type="button" data-action="add-pos-player">Add</button>
+            <button type="button" data-action="clear-pos-players" class="secondary">
+              Clear
+            </button>
+          </div>
+          <p class="control-hint">
+            Select up to five players to highlight. Player lines show percentage of total league 3PA they contributed each season (using volume totals).
+          </p>
+          <div class="chip-container" data-pos-chip-list></div>
+        </div>
         <div class="chart" data-chart="positionShare"></div>
         <p class="data-source" data-source="positionShare"></p>
       </section>
