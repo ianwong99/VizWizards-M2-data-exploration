@@ -5,12 +5,13 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Georgia', 'Times New Roman', serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #3b82f6 100%);
-    color: #333;
+    background: #ffffff;
+    color: #2d3748;
     overflow-x: hidden;
+    line-height: 1.7;
 }
 
 .scroll-container {
@@ -25,69 +26,93 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px 20px;
+    padding: 80px 40px;
     position: relative;
 }
 
 .story-section:nth-child(odd) {
-    background: rgba(255, 255, 255, 0.95);
+    background: #ffffff;
 }
 
 .story-section:nth-child(even) {
-    background: rgba(248, 250, 252, 0.95);
+    background: #f8fafc;
 }
 
 /* Introduction and Conclusion Sections */
-#intro, #conclusion {
-    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+#intro {
+    background: linear-gradient(135deg, #1a365d 0%, #2c5282 50%, #2b6cb0 100%);
     color: white;
     text-align: center;
+    padding: 120px 40px;
+}
+
+#conclusion {
+    background: linear-gradient(135deg, #2c5282 0%, #2b6cb0 100%);
+    color: white;
+    text-align: center;
+    padding: 120px 40px;
 }
 
 #intro h1 {
-    font-size: 4rem;
-    margin-bottom: 20px;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 4.5rem;
+    margin-bottom: 30px;
     font-weight: 700;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: -1px;
+    line-height: 1.1;
 }
 
 .intro-text {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     font-size: 1.5rem;
     font-weight: 300;
-    opacity: 0.9;
+    opacity: 0.95;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
 }
 
 #conclusion h2 {
-    font-size: 3rem;
-    margin-bottom: 20px;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    font-weight: 700;
 }
 
 #conclusion p {
-    font-size: 1.3rem;
-    max-width: 800px;
-    line-height: 1.6;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 1.4rem;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-weight: 300;
 }
 
 /* Story Content */
 .story-content {
-    max-width: 1200px;
+    max-width: 1000px;
     width: 100%;
-    padding: 20px;
-    margin-bottom: 30px;
-    text-align: center;
+    padding: 40px 60px;
+    margin-bottom: 50px;
+    text-align: left;
 }
 
 .story-content h2 {
-    font-size: 2.5rem;
-    margin-bottom: 15px;
-    color: #1e40af;
-    font-weight: 600;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 2.8rem;
+    margin-bottom: 25px;
+    color: #1a365d;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
 }
 
 .story-content p {
-    font-size: 1.2rem;
-    color: #64748b;
-    line-height: 1.6;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 1.25rem;
+    color: #4a5568;
+    line-height: 1.8;
+    font-weight: 400;
 }
 
 /* Visualization Container */
@@ -95,16 +120,16 @@ body {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0;
     background: white;
-    border-radius: 12px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     overflow: hidden;
+    border: 1px solid #e2e8f0;
 }
 
 tableau-viz {
     display: block;
-    border-radius: 8px;
 }
 
 /* Progress Bar */
@@ -113,14 +138,14 @@ tableau-viz {
     top: 0;
     left: 0;
     width: 100%;
-    height: 4px;
-    background: rgba(255, 255, 255, 0.2);
+    height: 3px;
+    background: rgba(226, 232, 240, 0.5);
     z-index: 1000;
 }
 
 .progress-fill {
     height: 100%;
-    background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+    background: linear-gradient(90deg, #2b6cb0, #4299e1);
     width: 0%;
     transition: width 0.3s ease;
 }
@@ -128,8 +153,8 @@ tableau-viz {
 /* Scroll Animations */
 .story-section {
     opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 0.8s ease, transform 0.8s ease;
+    transform: translateY(30px);
+    transition: opacity 1s ease, transform 1s ease;
 }
 
 .story-section.visible {
@@ -137,10 +162,62 @@ tableau-viz {
     transform: translateY(0);
 }
 
+/* Section Dividers */
+.story-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(90deg, transparent, #2b6cb0, transparent);
+    opacity: 0.3;
+}
+
+#intro::before,
+#conclusion::before {
+    display: none;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
     #intro h1 {
-        font-size: 3rem;
+        font-size: 3.5rem;
+    }
+
+    .story-content {
+        padding: 30px 40px;
+    }
+
+    .story-content h2 {
+        font-size: 2.3rem;
+    }
+
+    .story-content p {
+        font-size: 1.15rem;
+    }
+
+    .viz-container {
+        max-width: 100%;
+    }
+
+    .story-section {
+        padding: 60px 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    #intro h1 {
+        font-size: 2.8rem;
+    }
+
+    .intro-text {
+        font-size: 1.2rem;
+    }
+
+    .story-content {
+        padding: 20px 30px;
     }
 
     .story-content h2 {
@@ -151,30 +228,13 @@ tableau-viz {
         font-size: 1.1rem;
     }
 
-    .viz-container {
-        max-width: 100%;
-    }
-}
-
-@media (max-width: 768px) {
-    #intro h1 {
-        font-size: 2.5rem;
-    }
-
-    .intro-text {
-        font-size: 1.2rem;
-    }
-
-    .story-content h2 {
-        font-size: 1.8rem;
-    }
-
-    .story-content p {
-        font-size: 1rem;
-    }
-
     .story-section {
-        padding: 30px 10px;
+        padding: 50px 20px;
+    }
+
+    #intro,
+    #conclusion {
+        padding: 80px 30px;
     }
 
     tableau-viz {
@@ -184,15 +244,23 @@ tableau-viz {
 
 @media (max-width: 480px) {
     #intro h1 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     .intro-text {
-        font-size: 1rem;
+        font-size: 1.05rem;
     }
 
     .story-content h2 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
+    }
+
+    .story-content p {
+        font-size: 1rem;
+    }
+
+    .story-section {
+        padding: 40px 15px;
     }
 
     tableau-viz {
