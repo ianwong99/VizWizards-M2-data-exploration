@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Data Story - Tableau Scrollytelling</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+</head>
+<body>
+    <div class="scroll-container">
+        <!-- Introduction Section -->
+        <section class="story-section" id="intro">
+            <div class="story-content">
+                <h1>NBA Data Story</h1>
+                <p class="intro-text">Explore the evolution of NBA basketball through data visualization</p>
+            </div>
+        </section>
+
+        <!-- Salary Analysis Sheet 1 -->
+        <section class="story-section" data-viz-index="0">
+            <div class="story-content">
+                <h2>Salary Analysis - Overview</h2>
+                <p>Understanding NBA player salaries and compensation trends</p>
+            </div>
+            <div class="viz-container">
+                <tableau-viz 
+                    id="viz-0"
+                    src="https://public.tableau.com/views/Salary_17628163110230/Sheet1"
+                    width="100%" 
+                    height="800"
+                    hide-tabs
+                    toolbar="bottom">
+                </tableau-viz>
+            </div>
+        </section>
+
+        <!-- Salary Analysis Sheet 3 -->
+        <section class="story-section" data-viz-index="1">
+            <div class="story-content">
+                <h2>Salary Breakdown</h2>
+                <p>Detailed salary distribution across the league</p>
+            </div>
+            <div class="viz-container">
+                <tableau-viz 
+                    id="viz-1"
+                    src="https://public.tableau.com/views/Salary_17628163110230/Sheet3"
+                    width="100%" 
+                    height="800"
+                    hide-tabs
+                    toolbar="bottom">
+                </tableau-viz>
+            </div>
+        </section>
+
+        <!-- Shot Chart Dashboard -->
+        <section class="story-section" data-viz-index="2">
+            <div class="story-content">
+                <h2>Shot Chart Analysis</h2>
+                <p>Visualizing shooting patterns and locations on the court</p>
+            </div>
+            <div class="viz-container">
+                <tableau-viz 
+                    id="viz-2"
+                    src="https://public.tableau.com/views/shots_viz/ShotChartDashboard"
+                    width="100%" 
+                    height="800"
+                    hide-tabs
+                    toolbar="bottom">
+                </tableau-viz>
+            </div>
+        </section>
+
+        <!-- Trends Dashboard -->
+        <section class="story-section" data-viz-index="3">
+            <div class="story-content">
+                <h2>Shooting Trends</h2>
+                <p>Evolution of shooting patterns over time</p>
+            </div>
+            <div class="viz-container">
+                <tableau-viz 
+                    id="viz-3"
+                    src="https://public.tableau.com/views/shots_viz/TrendsDashboard"
+                    width="100%" 
+                    height="800"
+                    hide-tabs
+                    toolbar="bottom">
+                </tableau-viz>
+            </div>
+        </section>
+
+        <!-- Heatmap Dashboard -->
+        <section class="story-section" data-viz-index="4">
+            <div class="story-content">
+                <h2>Court Heatmap</h2>
+                <p>Heat zones showing where shots are taken most frequently</p>
+            </div>
+            <div class="viz-container">
+                <tableau-viz 
+                    id="viz-4"
+                    src="https://public.tableau.com/views/shots_viz/HeatmapDashboard"
+                    width="100%" 
+                    height="800"
+                    hide-tabs
+                    toolbar="bottom">
+                </tableau-viz>
+            </div>
+        </section>
+
+        <!-- 1997 Shot Map -->
+        <section class="story-section" data-viz-index="5">
+            <div class="story-content">
+                <h2>1997 Shot Map</h2>
+                <p>Visual representation of shot locations during the 1997 NBA season</p>
+            </div>
+            <div class="viz-container">
+                <tableau-viz 
+                    id="viz-5"
+                    src="https://public.tableau.com/views/1997ShotMap/Sheet1"
+                    width="100%" 
+                    height="800"
+                    hide-tabs
+                    toolbar="bottom">
+                </tableau-viz>
+            </div>
+        </section>
+
+        <!-- 1997 Shot Density -->
+        <section class="story-section" data-viz-index="6">
+            <div class="story-content">
+                <h2>1997 Shot Density</h2>
+                <p>Heat map showing shot density patterns from the 1997 season</p>
+            </div>
+            <div class="viz-container">
+                <tableau-viz 
+                    id="viz-6"
+                    src="https://public.tableau.com/views/1997ShotMap/Sheet2"
+                    width="100%" 
+                    height="800"
+                    hide-tabs
+                    toolbar="bottom">
+                </tableau-viz>
+            </div>
+        </section>
+
+        <!-- 2021 Shot Map -->
+        <section class="story-section" data-viz-index="7">
+            <div class="story-content">
+                <h2>2021 Shot Map</h2>
+                <p>Visual representation of shot locations during the 2021 NBA season</p>
+            </div>
+            <div class="viz-container">
+                <tableau-viz 
+                    id="viz-7"
+                    src="https://public.tableau.com/views/2021ShotMap/Sheet1"
+                    width="100%" 
+                    height="800"
+                    hide-tabs
+                    toolbar="bottom">
+                </tableau-viz>
+            </div>
+        </section>
+
+        <!-- 2021 Shot Density -->
+        <section class="story-section" data-viz-index="8">
+            <div class="story-content">
+                <h2>2021 Shot Density</h2>
+                <p>Heat map showing shot density patterns from the 2021 season - compare the evolution from 1997!</p>
+            </div>
+            <div class="viz-container">
+                <tableau-viz 
+                    id="viz-8"
+                    src="https://public.tableau.com/views/2021ShotMap/Sheet2"
+                    width="100%" 
+                    height="800"
+                    hide-tabs
+                    toolbar="bottom">
+                </tableau-viz>
+            </div>
+        </section>
+
+        <!-- 3-Point Attempted Trend -->
+        <section class="story-section" data-viz-index="9">
+            <div class="story-content">
+                <h2>3-Point Revolution</h2>
+                <p>The rise of three-point attempts and shooting percentage over the years</p>
+            </div>
+            <div class="viz-container">
+                <tableau-viz 
+                    id="viz-9"
+                    src="https://public.tableau.com/views/TableauVisuals_17628169252610/3PointsAttemptedandPercentageTrend"
+                    width="100%" 
+                    height="800"
+                    hide-tabs
+                    toolbar="bottom">
+                </tableau-viz>
+            </div>
+        </section>
+
+        <!-- 3-Point Efficiency Dashboard -->
+        <section class="story-section" data-viz-index="10">
+            <div class="story-content">
+                <h2>3-Point Efficiency Over Time</h2>
+                <p>Interactive analysis of three-point shooting efficiency with brushing and linking</p>
+            </div>
+            <div class="viz-container">
+                <tableau-viz 
+                    id="viz-10"
+                    src="https://public.tableau.com/views/TableauVisuals_17628169252610/Dashboard1"
+                    width="100%" 
+                    height="800"
+                    hide-tabs
+                    toolbar="bottom">
+                </tableau-viz>
+            </div>
+        </section>
+
+        <!-- Conclusion Section -->
+        <section class="story-section" id="conclusion">
+            <div class="story-content">
+                <h2>Key Takeaways</h2>
+                <p>The NBA has evolved significantly, with data revealing fundamental shifts in how the game is played.</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Progress Indicator -->
+    <div class="progress-bar">
+        <div class="progress-fill" id="progress-fill"></div>
+    </div>
+
+    <script src="js/app.js" defer></script>
+    <script src="js/scroll-handler.js" defer></script>
+</body>
+</html>
