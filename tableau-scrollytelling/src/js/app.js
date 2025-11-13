@@ -1,9 +1,27 @@
 // Main app initialization
 document.addEventListener('DOMContentLoaded', function() {
+    initHeroFade();
     initScrollAnimations();
     initProgressBar();
     initVizListeners();
 });
+
+// Hero image fade effect as you scroll
+function initHeroFade() {
+    const hero = document.getElementById('hero-section');
+    const heroBackground = hero.querySelector('.hero-background');
+    
+    window.addEventListener('scroll', function() {
+        const scrollTop = window.scrollY;
+        const heroHeight = hero.offsetHeight;
+        
+        // Calculate fade based on scroll position
+        let opacity = 1 - (scrollTop / (heroHeight * 0.8));
+        opacity = Math.max(0, Math.min(1, opacity)); // Clamp between 0 and 1
+        
+        heroBackground.style.opacity = opacity;
+    });
+}
 
 // Initialize scroll-triggered animations for sections
 function initScrollAnimations() {
