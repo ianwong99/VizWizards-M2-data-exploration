@@ -18,42 +18,6 @@
 
     <div class="scroll-container">
 
-        <!-- Salary Analysis Sheet 1 -->
-        <section class="story-section" data-viz-index="0">
-            <div class="story-content">
-                <h2>💰 Salary Analysis - Overview</h2>
-                <p>Understanding the economics of professional basketball starts with player compensation. This visualization reveals how NBA salaries are distributed across the league, highlighting trends in player valuation and team spending strategies.</p>
-            </div>
-            <div class="viz-container">
-                <tableau-viz 
-                    id="viz-0"
-                    src="https://public.tableau.com/views/Salary_17628163110230/Sheet1"
-                    width="100%" 
-                    height="800"
-                    hide-tabs
-                    toolbar="bottom">
-                </tableau-viz>
-            </div>
-        </section>
-
-        <!-- Salary Analysis Sheet 3 -->
-        <section class="story-section" data-viz-index="1">
-            <div class="story-content">
-                <h2>📊 Salary Breakdown</h2>
-                <p>Diving deeper into compensation patterns, we examine how salary distributions vary across positions, experience levels, and performance metrics. The data reveals fascinating insights into how teams allocate their financial resources.</p>
-            </div>
-            <div class="viz-container">
-                <tableau-viz 
-                    id="viz-1"
-                    src="https://public.tableau.com/views/Salary_17628163110230/Sheet3"
-                    width="100%" 
-                    height="800"
-                    hide-tabs
-                    toolbar="bottom">
-                </tableau-viz>
-            </div>
-        </section>
-
         <!-- Shot Chart Dashboard -->
         <section class="story-section" data-viz-index="2">
             <div class="story-content">
@@ -216,11 +180,47 @@
             </div>
         </section>
 
+        <!-- Salary Analysis Sheet 3 -->
+        <section class="story-section" data-viz-index="1">
+            <div class="story-content">
+                <h2>📊 Salary Breakdown</h2>
+                <p>
+                    Finally, we turn to the economics of professional basketball by examining how player compensation relates to shooting performance.
+                    In the top visualization, player salaries for each season are grouped into bins based on 3-point percentage (3P%),
+                    allowing you to compare how shooting efficiency aligns with pay within any given year.
+                    The bottom visualization shows how average salaries have evolved over time across the league.
+                </p>
+            </div>
+            <div class="viz-container">
+                <tableau-viz 
+                    id="viz-1"
+                    src="https://public.tableau.com/views/Salary_17628163110230/Dashboard1"
+                    width="100%" 
+                    height="800"
+                    hide-tabs
+                    toolbar="bottom">
+                </tableau-viz>
+            </div>
+            <div class="story-content">
+                <p>
+                    As expected, overall player salaries rise steadily across the years, but an interesting pattern emerges after roughly 2015:
+                    higher-earning players increasingly cluster in the upper 3P% bins.
+                    In other words, the modern NBA places a growing premium on perimeter shooting,
+                    and many of the league's top earners consistently shoot above 30% from three.
+                    <br><br>
+                    However, this trend does not apply uniformly across all positions.
+                    For example, traditional centers (C) typically attempt fewer three-point shots, so their salary is less correlated with 3P%.
+                    The interactive position filter allows you to highlight or exclude specific roles to better explore these nuances and isolate position-specific salary dynamics.
+                </p>
+            </div>
+        </section>
+
+
         <!-- Conclusion Section -->
         <section class="story-section" id="conclusion">
             <div class="story-content">
                 <h2>Key Takeaways</h2>
-                <p>From compensation structures to shooting patterns, the data reveals a sport in constant evolution. The NBA has transformed dramatically—driven by analytics, strategy, and an ever-increasing emphasis on efficiency. The three-point revolution hasn't just changed where players shoot; it's fundamentally reshaped how basketball is played, coached, and valued.</p>
+                <p>From shooting patterns to compensation structures, the data reveals a sport in constant evolution. The NBA has transformed dramatically—driven by analytics, strategy, and an ever-increasing emphasis on efficiency. The three-point revolution hasn't just changed where players shoot; it's fundamentally reshaped how basketball is played, coached, and valued.</p>
             </div>
         </section>
     </div>
