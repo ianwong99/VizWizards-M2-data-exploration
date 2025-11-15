@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Journey Through NBA Evolution - Data Story</title>
+    <title>The Three-Point Revolution - NBA Evolution Story</title>
     <link rel="stylesheet" href="css/styles.css">
     <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
 </head>
@@ -13,131 +13,45 @@
     <div class="hero" id="hero-section">
         <div class="hero-background"></div>
         <div class="hero-content">
-            <h1>Journey Through NBA Evolution</h1>
+            <h1>The Three-Point Revolution</h1>
             <p class="intro-text">
-                Explore how basketball has transformed over decades through comprehensive data visualization.
-                From player compensation to shooting patterns, discover the metrics that define the modern game.
+                A journey through the transformation of basketball from the post-heavy 1990s to today's 
+                perimeter-dominated game. Watch how the NBA evolved across three distinct eras, 
+                fundamentally changing how the game is played.
             </p>
         </div>
     </div>
 
     <div class="scroll-container">
 
-        <!-- SHOT CHART DASHBOARD -->
-        <section class="story-section" data-viz-index="2">
+        <!-- ERA 1: THE 1990s-2000s - INSIDE DOMINANCE -->
+        <section class="story-section era-transition" data-viz-index="1">
             <div class="story-content">
-                <h2>🏀 Shot Chart Analysis</h2>
+                <h2>🏀 Era 1: The Inside Game (1990s-2000s)</h2>
                 <p>
-                    Basketball is ultimately about putting the ball through the hoop. This interactive shot chart
-                    visualizes shooting patterns and locations on the court, revealing the strategic evolution of
-                    offensive play.
+                    In the 1990s and early 2000s, NBA basketball was dominated by centers and power forwards. 
+                    The paint was king, and the three-point shot was considered a specialty weapon rather than 
+                    a core offensive strategy. Teams built around post players like Shaquille O'Neal, Tim Duncan, 
+                    and Hakeem Olajuwon defined success. This was an era of mid-range mastery and physical 
+                    inside play.
                 </p>
-            </div>
-            <div class="viz-container">
-                <tableau-viz 
-                    id="viz-2"
-                    src="https://public.tableau.com/views/shots_viz/ShotChartDashboard"
-                    width="100%" height="800"
-                    hide-tabs toolbar="bottom">
-                </tableau-viz>
-            </div>
-        </section>
-
-        <!-- SHOOTING TRENDS DASHBOARD -->
-        <section class="story-section" data-viz-index="3">
-            <div class="story-content">
-                <h2>📈 Shooting Trends Over Time</h2>
-                <p>
-                    How has shooting evolved in the NBA? This dashboard tracks the progression of shooting
-                    patterns across seasons, illuminating the shift in offensive philosophy that has reshaped
-                    modern basketball.
-                </p>
-            </div>
-            <div class="viz-container">
-                <tableau-viz 
-                    id="viz-3"
-                    src="https://public.tableau.com/views/shots_viz/TrendsDashboard"
-                    width="100%" height="800"
-                    hide-tabs toolbar="bottom">
-                </tableau-viz>
-            </div>
-        </section>
-
-        <!-- HEATMAP DASHBOARD -->
-        <section class="story-section" data-viz-index="4">
-            <div class="story-content">
-                <h2>🔥 Court Heatmap</h2>
-                <p>
-                    Heat zones reveal where shots are taken most frequently across the league. Notice the
-                    concentration patterns and how certain areas of the court have become increasingly popular
-                    over time.
-                </p>
-            </div>
-            <div class="viz-container">
-                <tableau-viz 
-                    id="viz-4"
-                    src="https://public.tableau.com/views/shots_viz/HeatmapDashboard"
-                    width="100%" height="800"
-                    hide-tabs toolbar="bottom">
-                </tableau-viz>
-            </div>
-        </section>
-
-        <!-- PRE-SPACING ERA -->
-        <section class="story-section" data-viz-index="3.5">
-            <div class="story-content">
-                <h2>🎞️ Inside the Arc: Basketball’s Pre-Spacing Era</h2>
-                <p>
-                    In the late 1990s and early 2000s, NBA offenses operated primarily inside the arc.
-                    This visualization shows dense clusters of shots in the mid-range and paint, reflecting
-                    a style of play centered on post-ups, isolations, and high-percentage two-pointers.
-                    The three-point line existed, but it wasn’t yet a major strategic weapon.
-                </p>
-            </div>
-            <div class="viz-container">
-                <tableau-viz 
-                    id="viz-scene-2"
-                    src="https://public.tableau.com/views/Book1_17628174189890/Sheet1"
-                    width="100%" height="800"
-                    hide-tabs toolbar="bottom">
-                </tableau-viz>
-            </div>
-        </section>
-
-        <!-- THE RISE OF THE THREE -->
-        <section class="story-section" data-viz-index="3.6">
-            <div class="story-content">
-                <h2>🌐 The Rise of the Three-Point Shot</h2>
-                <p>
-                    As the league progressed into the 2000s and 2010s, teams began to embrace floor spacing
-                    and the value of the three-point shot. In this visualization, you can see attempts expanding
-                    far beyond the arc, marking the early stages of the perimeter revolution. By the 2010s,
-                    the perimeter becomes densely populated, illustrating how analytics reshaped offensive
-                    priorities across the NBA.
-                </p>
-            </div>
-            <div class="viz-container">
-                <tableau-viz 
-                    id="viz-scene-3"
-                    src="https://public.tableau.com/views/Book1_17628174189890/Sheet2"
-                    width="100%" height="800"
-                    hide-tabs toolbar="bottom">
-                </tableau-viz>
             </div>
         </section>
 
         <!-- 1997 SHOT MAP -->
-        <section class="story-section" data-viz-index="5">
+        <section class="story-section" data-viz-index="2">
             <div class="story-content">
-                <h2>🕰️ 1997 Shot Map</h2>
+                <h2>📍 1997: The Classic Era</h2>
                 <p>
-                    Step back in time to the 1997 NBA season. This shot map captures the shooting patterns of an era
-                    dominated by mid-range jumpers and post play.
+                    This shot map from 1997 tells the story of traditional basketball. Notice the concentration 
+                    of attempts in the mid-range and paint areas. The three-point line exists, but it's not yet 
+                    a primary weapon in most teams' arsenals. Stars like Michael Jordan and Kobe Bryant built 
+                    their games on perfecting these shots that would later be deemed "inefficient."
                 </p>
             </div>
             <div class="viz-container">
                 <tableau-viz 
-                    id="viz-5"
+                    id="viz-1997-map"
                     src="https://public.tableau.com/views/1997ShotMap/Sheet1"
                     width="100%" height="800"
                     hide-tabs toolbar="bottom">
@@ -146,17 +60,19 @@
         </section>
 
         <!-- 1997 SHOT DENSITY -->
-        <section class="story-section" data-viz-index="6">
+        <section class="story-section" data-viz-index="3">
             <div class="story-content">
-                <h2>🌡️ 1997 Shot Density</h2>
+                <h2>🌡️ 1997 Heat Zones</h2>
                 <p>
-                    The density map from 1997 shows concentrated activity in the paint and mid-range areas—before
-                    the three-point revolution transformed the game.
+                    The density map reveals where the action really happened: dense clusters in the paint 
+                    and mid-range. This was basketball built on post-ups, mid-range jumpers, and getting 
+                    to the rim. The three-point shot? Mostly a last resort or a weapon for specialists. 
+                    Notice how the court's "hot zones" paint a completely different picture than modern basketball.
                 </p>
             </div>
             <div class="viz-container">
                 <tableau-viz 
-                    id="viz-6"
+                    id="viz-1997-density"
                     src="https://public.tableau.com/views/1997ShotMap/Sheet2"
                     width="100%" height="800"
                     hide-tabs toolbar="bottom">
@@ -164,18 +80,149 @@
             </div>
         </section>
 
-        <!-- 2021 SHOT MAP -->
-        <section class="story-section" data-viz-index="7">
+        <!-- ERA 2: THE 2000s-2010s - TRANSITION PERIOD -->
+        <section class="story-section era-transition" data-viz-index="4">
             <div class="story-content">
-                <h2>🎯 2021 Shot Map</h2>
+                <h2>🔄 Era 2: The Transition (2000s-2010s)</h2>
                 <p>
-                    Fast forward to 2021: the shot map reveals a league that has fully embraced the three-point shot,
-                    with players spreading across the perimeter in ways unimaginable decades ago.
+                    The mid-2000s marked the beginning of a seismic shift. Analytics started revealing an 
+                    uncomfortable truth: three-pointers were more efficient than long two-pointers. Teams like 
+                    the Seven Seconds or Less Phoenix Suns pioneered faster, more perimeter-oriented play. 
+                    The revolution was brewing, but many teams—and players—still clung to traditional approaches. 
+                    This decade represents basketball's awkward adolescence between eras.
+                </p>
+            </div>
+        </section>
+
+        <!-- 2005 HEATMAP -->
+        <section class="story-section" data-viz-index="5">
+            <div class="story-content">
+                <h2>📊 2005: The Turning Point</h2>
+                <p>
+                    By 2005, we start to see the early signs of change. While the paint remains vitally important, 
+                    notice the increasing activity beyond the arc. Teams are beginning to space the floor differently. 
+                    The analytics movement is gaining momentum, and forward-thinking coaches are starting to question 
+                    conventional wisdom. This era represents the bridge between old-school and modern basketball—you 
+                    can see both philosophies coexisting on the same court.
                 </p>
             </div>
             <div class="viz-container">
                 <tableau-viz 
-                    id="viz-7"
+                    id="viz-2005-heatmap"
+                    src="https://public.tableau.com/views/2005Heatmap/HeatmapDashboard"
+                    width="100%" height="800"
+                    hide-tabs toolbar="bottom">
+                </tableau-viz>
+            </div>
+        </section>
+
+        <!-- BROOK LOPEZ CASE STUDY - 2010 -->
+        <section class="story-section" data-viz-index="6">
+            <div class="story-content">
+                <h2>👤 Case Study: Brook Lopez in 2010</h2>
+                <p>
+                    Brook Lopez entered the NBA as a traditional center—and his 2010 shot chart proves it. 
+                    Look at the concentration of attempts: dominated by shots around the basket and in the mid-range. 
+                    He was doing exactly what centers were supposed to do: operate in the paint, finish at the rim, 
+                    and occasionally step out for a mid-range jumper. He was a classic big man in every sense, 
+                    playing a style of basketball that had worked for decades.
+                </p>
+                <p>
+                    Keep this chart in mind—we'll revisit Brook later to see one of the most dramatic 
+                    player transformations in NBA history.
+                </p>
+            </div>
+            <div class="viz-container">
+                <tableau-viz 
+                    id="viz-lopez-2010"
+                    src="https://public.tableau.com/views/2010BrookLopezHeatmap/HeatmapDashboard"
+                    width="100%" height="800"
+                    hide-tabs toolbar="bottom">
+                </tableau-viz>
+            </div>
+        </section>
+
+        <!-- ERA 3: THE 2010s-PRESENT - THE THREE-POINT REVOLUTION -->
+        <section class="story-section era-transition" data-viz-index="7">
+            <div class="story-content">
+                <h2>🚀 Era 3: The Revolution (2010s-Present)</h2>
+                <p>
+                    Everything changed. The Warriors' dynasty proved that a three-point-centric offense could 
+                    dominate the league. Stephen Curry didn't just shoot threes—he redefined what was possible, 
+                    launching from distances that would have been considered foolish just years earlier. Analytics 
+                    became gospel. "Moreyball" in Houston eliminated the mid-range jumper entirely. Even centers 
+                    were now expected to space the floor and shoot threes. The game had fundamentally transformed, 
+                    and there was no going back.
+                </p>
+            </div>
+        </section>
+
+        <!-- 2019 HEATMAP -->
+        <section class="story-section" data-viz-index="8">
+            <div class="story-content">
+                <h2>🎯 2019: The Modern Game</h2>
+                <p>
+                    Look at the dramatic difference from just 15 years earlier. The 2019 shot chart shows the 
+                    complete transformation: heavy concentration beyond the three-point arc, dense activity at 
+                    the rim for high-percentage attempts, and a virtual desert in the mid-range. This is 
+                    analytics-driven basketball at its peak—a complete reimagining of offensive efficiency. 
+                    The "long two" has become basketball's cardinal sin, and teams hunt relentlessly for threes 
+                    and layups.
+                </p>
+            </div>
+            <div class="viz-container">
+                <tableau-viz 
+                    id="viz-2019-heatmap"
+                    src="https://public.tableau.com/views/2019Heatmap_17632416937850/HeatmapDashboard"
+                    width="100%" height="800"
+                    hide-tabs toolbar="bottom">
+                </tableau-viz>
+            </div>
+        </section>
+
+        <!-- BROOK LOPEZ CASE STUDY - 2019 -->
+        <section class="story-section" data-viz-index="9">
+            <div class="story-content">
+                <h2>🔄 The Complete Evolution: Brook Lopez 2019</h2>
+                <p>
+                    Remember Brook Lopez from 2010? The traditional center who lived in the paint? Now look at 
+                    his 2019 shot chart. It's almost unrecognizable—the same player who once operated almost 
+                    exclusively inside has become a legitimate three-point threat. In 2019, Lopez attempted 512 
+                    three-pointers, making 36.5% of them. The mid-range shots? Almost entirely eliminated.
+                </p>
+                <p>
+                    Brook's transformation perfectly mirrors the league's evolution. It wasn't just about young 
+                    players entering the league with new skills—it was about veterans adapting or becoming obsolete. 
+                    Lopez chose to adapt, and in doing so, extended his career and won a championship with the 
+                    Milwaukee Bucks. His journey from paint-bound center to floor-spacing big man represents the 
+                    revolution in microcosm: adapt to the three-point era, or get left behind.
+                </p>
+            </div>
+            <div class="viz-container">
+                <tableau-viz 
+                    id="viz-lopez-2019"
+                    src="https://public.tableau.com/views/2019BrookLopezHeatmap/HeatmapDashboard"
+                    width="100%" height="800"
+                    hide-tabs toolbar="bottom">
+                </tableau-viz>
+            </div>
+        </section>
+
+        <!-- 2021 SHOT MAP -->
+        <section class="story-section" data-viz-index="10">
+            <div class="story-content">
+                <h2>🌟 2021: The New Normal</h2>
+                <p>
+                    By 2021, the revolution is complete and normalized. The modern NBA shot map reveals a league 
+                    that has fully embraced the three-point shot as the foundation of offensive strategy. Players 
+                    spread across the perimeter, hunting for the most efficient shots: threes and layups. What was 
+                    once radical is now standard operating procedure. Every team, from the Warriors to the smallest 
+                    market franchise, has bought into the math.
+                </p>
+            </div>
+            <div class="viz-container">
+                <tableau-viz 
+                    id="viz-2021-map"
                     src="https://public.tableau.com/views/2021ShotMap/Sheet1"
                     width="100%" height="800"
                     hide-tabs toolbar="bottom">
@@ -184,17 +231,20 @@
         </section>
 
         <!-- 2021 SHOT DENSITY -->
-        <section class="story-section" data-viz-index="8">
+        <section class="story-section" data-viz-index="11">
             <div class="story-content">
-                <h2>🌟 2021 Shot Density</h2>
+                <h2>🔥 2021: Heat Check</h2>
                 <p>
-                    The 2021 density map shows dramatic increases in activity beyond the arc and at the rim—the mid-range
-                    has become the "inefficient zone" teams now avoid.
+                    The 2021 density map paints the complete picture: massive concentration beyond the arc and 
+                    at the rim, creating a distinctive "barbell" shot distribution. The mid-range—once the bread 
+                    and butter of NBA offense, where legends like Jordan and Kobe built their legacies—has become 
+                    the "inefficient zone" that teams actively avoid. Compare this to the 1997 map: it's not just 
+                    evolution, it's a complete revolution in how basketball is conceived and played.
                 </p>
             </div>
             <div class="viz-container">
                 <tableau-viz 
-                    id="viz-8"
+                    id="viz-2021-density"
                     src="https://public.tableau.com/views/2021ShotMap/Sheet2"
                     width="100%" height="800"
                     hide-tabs toolbar="bottom">
@@ -203,17 +253,19 @@
         </section>
 
         <!-- THREE-POINT ATTEMPT TREND -->
-        <section class="story-section" data-viz-index="9">
+        <section class="story-section" data-viz-index="12">
             <div class="story-content">
-                <h2>🚀 The Three-Point Revolution</h2>
+                <h2>📈 The Numbers Don't Lie</h2>
                 <p>
-                    This visualization tracks the exponential growth in three-point attempts and shooting percentages
-                    across the years.
+                    This visualization tracks the exponential growth in three-point attempts and shooting percentages 
+                    across the years. It's not a gradual slope—it's a hockey stick. The inflection point is clear: 
+                    around the mid-2010s, the league collectively decided that the three-pointer wasn't just a weapon, 
+                    it was THE weapon. Teams that resisted this truth found themselves unable to compete.
                 </p>
             </div>
             <div class="viz-container">
                 <tableau-viz 
-                    id="viz-9"
+                    id="viz-3point-trend"
                     src="https://public.tableau.com/views/TableauVisuals_17628169252610/3PointsAttemptedandPercentageTrend"
                     width="100%" height="800"
                     hide-tabs toolbar="bottom">
@@ -222,16 +274,20 @@
         </section>
 
         <!-- THREE-POINT EFFICIENCY -->
-        <section class="story-section" data-viz-index="10">
+        <section class="story-section" data-viz-index="13">
             <div class="story-content">
-                <h2>⚡ Three-Point Efficiency Over Time</h2>
+                <h2>⚡ Efficiency Revolution</h2>
                 <p>
-                    Explore how teams and players have mastered the long-range shot through better training and analytics.
+                    Explore how teams and players have mastered the long-range shot through better training, 
+                    analytics, and technique. It's not just that teams are shooting more threes—they're getting 
+                    better at making them. The combination of increased volume AND improved efficiency has made 
+                    the three-point shot the most dominant force in modern basketball. What once seemed like a 
+                    gimmick has become fundamental to the game's identity.
                 </p>
             </div>
             <div class="viz-container">
                 <tableau-viz 
-                    id="viz-10"
+                    id="viz-3point-efficiency"
                     src="https://public.tableau.com/views/TableauVisuals_17628169252610/Dashboard1"
                     width="100%" height="800"
                     hide-tabs toolbar="bottom">
@@ -240,14 +296,19 @@
         </section>
 
         <!-- POINTS VS 3PA -->
-        <section class="story-section" data-viz-index="11">
+        <section class="story-section" data-viz-index="14">
             <div class="story-content">
-                <h2>Points Scored vs 3-Pointers Attempted</h2>
-                <p>[description to be added]</p>
+                <h2>💰 Points Scored vs 3-Pointers Attempted</h2>
+                <p>
+                    The correlation is undeniable: as three-point attempts increased, so did scoring efficiency 
+                    and total points. Teams that embraced the three-point revolution found themselves with a 
+                    significant competitive advantage. This chart shows why analytics won: the math simply works. 
+                    The three-pointer isn't just changing how the game looks—it's changing who wins.
+                </p>
             </div>
             <div class="viz-container">
                 <tableau-viz 
-                    id="viz-11"
+                    id="viz-points-3pa"
                     src="https://public.tableau.com/shared/8HB479DPP?:display_count=n&:origin=viz_share_link"
                     width="100%" height="800"
                     hide-tabs toolbar="bottom">
@@ -256,37 +317,50 @@
         </section>
 
         <!-- SALARY VISUALIZATION -->
-        <section class="story-section" data-viz-index="1">
+        <section class="story-section" data-viz-index="15">
             <div class="story-content">
-                <h2>📊 Salary Breakdown</h2>
+                <h2>💵 Follow the Money</h2>
                 <p>
-                    Explore how player compensation trends relate to three-point shooting percentages.
+                    Player compensation tells the story of what teams value. Explore how salary trends relate 
+                    to three-point shooting percentages. After 2015, higher-earning players increasingly cluster 
+                    in the upper 3P% ranges, indicating a growing premium on perimeter shooting. The market has 
+                    spoken: if you can shoot threes, you can get paid. Centers who adapted, like Brook Lopez, 
+                    extended their careers and earning potential. Those who didn't? They found themselves out 
+                    of the league.
                 </p>
             </div>
             <div class="viz-container">
                 <tableau-viz 
-                    id="viz-1"
+                    id="viz-salary"
                     src="https://public.tableau.com/views/Salary_17628163110230/Dashboard1"
                     width="100%" height="800"
                     hide-tabs toolbar="bottom">
                 </tableau-viz>
-            </div>
-
-            <div class="story-content">
-                <p>
-                    After 2015, higher-earning players increasingly cluster in the upper 3P% bins, indicating a growing premium
-                    on perimeter shooting—though centers still differ due to role specialization.
-                </p>
             </div>
         </section>
 
         <!-- CONCLUSION -->
         <section class="story-section" id="conclusion">
             <div class="story-content">
-                <h2>Key Takeaways</h2>
+                <h2>The Revolution is Complete</h2>
                 <p>
-                    From shooting patterns to compensation structures, the data reveals a sport in constant evolution.
-                    Analytics and efficiency have reshaped how basketball is played, coached, and valued.
+                    From shooting patterns to compensation structures to player development, the data reveals 
+                    a sport in complete transformation. The three-point revolution isn't just about taking more 
+                    long-range shots—it's about a fundamental reimagining of basketball strategy, player roles, 
+                    and team construction.
+                </p>
+                <p>
+                    What we've witnessed isn't simply evolution—it's revolution. The game played in 1997 and the 
+                    game played in 2021 are barely recognizable as the same sport. Analytics and efficiency have 
+                    reshaped not just how basketball is played, but how it's coached, scouted, and valued. 
+                    Players like Brook Lopez had to reinvent themselves completely. Teams that resisted change 
+                    found themselves left behind.
+                </p>
+                <p>
+                    The question now isn't whether the three-point revolution was real—it's what comes next. 
+                    Will the pendulum swing back? Will defenses adapt to neutralize the three? Or have we reached 
+                    a new equilibrium that defines the future of basketball? One thing is certain: the game will 
+                    never be the same.
                 </p>
             </div>
         </section>

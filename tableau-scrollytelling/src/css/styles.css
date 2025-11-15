@@ -165,7 +165,7 @@ body {
 /* Visualization Container */
 .viz-container {
     width: 100%;
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0;
     background: white;
@@ -220,6 +220,37 @@ tableau-viz {
     height: 4px;
     background: linear-gradient(90deg, transparent, #2b6cb0, transparent);
     opacity: 0.3;
+}
+
+/* Era Transition Sections */
+.era-transition {
+    background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%) !important;
+    color: white;
+    text-align: center;
+    padding: 100px 40px !important;
+    min-height: 60vh !important;
+}
+
+.era-transition .story-content {
+    text-align: center;
+}
+
+.era-transition .story-content h2 {
+    color: #ffffff;
+    font-size: 3.2rem;
+    margin-bottom: 35px;
+}
+
+.era-transition .story-content p {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 1.35rem;
+    max-width: 1000px;
+    margin: 0 auto 25px;
+    line-height: 1.9;
+}
+
+.era-transition::before {
+    display: none;
 }
 
 #intro::before,
