@@ -7,228 +7,239 @@
     <link rel="stylesheet" href="css/styles.css">
     <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
 </head>
+
 <body>
+    <!-- HERO SECTION -->
     <div class="hero" id="hero-section">
         <div class="hero-background"></div>
         <div class="hero-content">
             <h1>Journey Through NBA Evolution</h1>
-            <p class="intro-text">Explore how basketball has transformed over decades through comprehensive data visualization. From player compensation to shooting patterns, discover the metrics that define the modern game.</p>
+            <p class="intro-text">
+                Explore how basketball has transformed over decades through comprehensive data visualization.
+                From player compensation to shooting patterns, discover the metrics that define the modern game.
+            </p>
         </div>
     </div>
 
     <div class="scroll-container">
 
-        <!-- Shot Chart Dashboard -->
+        <!-- SHOT CHART DASHBOARD -->
         <section class="story-section" data-viz-index="2">
             <div class="story-content">
                 <h2>🏀 Shot Chart Analysis</h2>
-                <p>Basketball is ultimately about putting the ball through the hoop. This interactive shot chart visualizes shooting patterns and locations on the court, revealing the strategic evolution of offensive play.</p>
+                <p>
+                    Basketball is ultimately about putting the ball through the hoop. This interactive shot chart
+                    visualizes shooting patterns and locations on the court, revealing the strategic evolution of
+                    offensive play.
+                </p>
             </div>
             <div class="viz-container">
                 <tableau-viz 
                     id="viz-2"
                     src="https://public.tableau.com/views/shots_viz/ShotChartDashboard"
-                    width="100%" 
-                    height="800"
-                    hide-tabs
-                    toolbar="bottom">
+                    width="100%" height="800"
+                    hide-tabs toolbar="bottom">
                 </tableau-viz>
             </div>
         </section>
 
-        <!-- Trends Dashboard -->
+        <!-- SHOOTING TRENDS DASHBOARD -->
         <section class="story-section" data-viz-index="3">
             <div class="story-content">
                 <h2>📈 Shooting Trends Over Time</h2>
-                <p>How has shooting evolved in the NBA? This dashboard tracks the progression of shooting patterns across seasons, illuminating the shift in offensive philosophy that has reshaped modern basketball.</p>
+                <p>
+                    How has shooting evolved in the NBA? This dashboard tracks the progression of shooting
+                    patterns across seasons, illuminating the shift in offensive philosophy that has reshaped
+                    modern basketball.
+                </p>
             </div>
             <div class="viz-container">
                 <tableau-viz 
                     id="viz-3"
                     src="https://public.tableau.com/views/shots_viz/TrendsDashboard"
-                    width="100%" 
-                    height="800"
-                    hide-tabs
-                    toolbar="bottom">
+                    width="100%" height="800"
+                    hide-tabs toolbar="bottom">
                 </tableau-viz>
             </div>
         </section>
 
-        <!-- Heatmap Dashboard -->
+        <!-- HEATMAP DASHBOARD -->
         <section class="story-section" data-viz-index="4">
             <div class="story-content">
                 <h2>🔥 Court Heatmap</h2>
-                <p>Heat zones reveal where shots are taken most frequently across the league. Notice the concentration patterns and how certain areas of the court have become increasingly popular over time.</p>
+                <p>
+                    Heat zones reveal where shots are taken most frequently across the league. Notice the
+                    concentration patterns and how certain areas of the court have become increasingly popular
+                    over time.
+                </p>
             </div>
             <div class="viz-container">
                 <tableau-viz 
                     id="viz-4"
                     src="https://public.tableau.com/views/shots_viz/HeatmapDashboard"
-                    width="100%" 
-                    height="800"
-                    hide-tabs
-                    toolbar="bottom">
+                    width="100%" height="800"
+                    hide-tabs toolbar="bottom">
                 </tableau-viz>
             </div>
         </section>
-        
+
+        <!-- PRE-SPACING ERA -->
         <section class="story-section" data-viz-index="3.5">
-    <div class="story-content">
-        <section class="story-section" data-viz-index="3.5">
-    <div class="story-content">
-        <h2>🎞️ Scene 2 — Inside the Arc: Basketball’s Pre-Spacing Era</h2>
-        <p>
-            In the late 1990s and early 2000s, NBA offenses operated primarily inside the arc.
-            This visualization shows dense clusters of shots in the mid-range and paint-reflecting
-            a style of play centered on post-ups, isolations, and high-percentage two-pointers.
-            The three-point line existed, but it wasn’t yet a major strategic weapon.
-        </p>
-    </div>
-    <div class="viz-container">
-        <tableau-viz 
-            id="viz-scene-2"
-            src="https://public.tableau.com/views/Book1_17628174189890/Sheet1"
-            width="100%"
-            height="800"
-            hide-tabs
-            toolbar="bottom">
-        </tableau-viz>
-    </div>
-</section>
+            <div class="story-content">
+                <h2>🎞️ Inside the Arc: Basketball’s Pre-Spacing Era</h2>
+                <p>
+                    In the late 1990s and early 2000s, NBA offenses operated primarily inside the arc.
+                    This visualization shows dense clusters of shots in the mid-range and paint, reflecting
+                    a style of play centered on post-ups, isolations, and high-percentage two-pointers.
+                    The three-point line existed, but it wasn’t yet a major strategic weapon.
+                </p>
+            </div>
+            <div class="viz-container">
+                <tableau-viz 
+                    id="viz-scene-2"
+                    src="https://public.tableau.com/views/Book1_17628174189890/Sheet1"
+                    width="100%" height="800"
+                    hide-tabs toolbar="bottom">
+                </tableau-viz>
+            </div>
+        </section>
 
+        <!-- THE RISE OF THE THREE -->
+        <section class="story-section" data-viz-index="3.6">
+            <div class="story-content">
+                <h2>🌐 The Rise of the Three-Point Shot</h2>
+                <p>
+                    As the league progressed into the 2000s and 2010s, teams began to embrace floor spacing
+                    and the value of the three-point shot. In this visualization, you can see attempts expanding
+                    far beyond the arc, marking the early stages of the perimeter revolution. By the 2010s,
+                    the perimeter becomes densely populated, illustrating how analytics reshaped offensive
+                    priorities across the NBA.
+                </p>
+            </div>
+            <div class="viz-container">
+                <tableau-viz 
+                    id="viz-scene-3"
+                    src="https://public.tableau.com/views/Book1_17628174189890/Sheet2"
+                    width="100%" height="800"
+                    hide-tabs toolbar="bottom">
+                </tableau-viz>
+            </div>
+        </section>
 
-<!-- Scene 3: Rise of the Three (Mid-2000s to 2020s) -->
-<section class="story-section" data-viz-index="3.6">
-    <div class="story-content">
-        <h2>🌐 Scene 3 — The Rise of the Three-Point Shot</h2>
-        <p>
-            As the league progressed into the 2000s and 2010s, teams began to embrace floor spacing
-            and the value of the three-point shot. In this visualization, you can see attempts expanding
-            far beyond the arc, marking the early stages of the perimeter revolution. By the 2010s,
-            the perimeter becomes densely populated, illustrating how analytics reshaped offensive
-            priorities across the NBA.
-        </p>
-    </div>
-    <div class="viz-container">
-        <tableau-viz 
-            id="viz-scene-3"
-            src="https://public.tableau.com/views/Book1_17628174189890/Sheet2"
-            width="100%"
-            height="800"
-            hide-tabs
-            toolbar="bottom">
-        </tableau-viz>
-    </div>
-</section>
-
-        <!-- 1997 Shot Map -->
+        <!-- 1997 SHOT MAP -->
         <section class="story-section" data-viz-index="5">
             <div class="story-content">
                 <h2>🕰️ 1997 Shot Map</h2>
-                <p>Step back in time to the 1997 NBA season. This shot map captures the shooting patterns of an era dominated by mid-range jumpers and post play, before the three-point revolution transformed the game.</p>
+                <p>
+                    Step back in time to the 1997 NBA season. This shot map captures the shooting patterns of an era
+                    dominated by mid-range jumpers and post play.
+                </p>
             </div>
             <div class="viz-container">
                 <tableau-viz 
                     id="viz-5"
                     src="https://public.tableau.com/views/1997ShotMap/Sheet1"
-                    width="100%" 
-                    height="800"
-                    hide-tabs
-                    toolbar="bottom">
+                    width="100%" height="800"
+                    hide-tabs toolbar="bottom">
                 </tableau-viz>
             </div>
         </section>
 
-        <!-- 1997 Shot Density -->
+        <!-- 1997 SHOT DENSITY -->
         <section class="story-section" data-viz-index="6">
             <div class="story-content">
                 <h2>🌡️ 1997 Shot Density</h2>
-                <p>The density map from 1997 shows concentrated activity in the paint and mid-range areas. The three-point line was present but underutilized—a stark contrast to modern basketball strategy.</p>
+                <p>
+                    The density map from 1997 shows concentrated activity in the paint and mid-range areas—before
+                    the three-point revolution transformed the game.
+                </p>
             </div>
             <div class="viz-container">
                 <tableau-viz 
                     id="viz-6"
                     src="https://public.tableau.com/views/1997ShotMap/Sheet2"
-                    width="100%" 
-                    height="800"
-                    hide-tabs
-                    toolbar="bottom">
+                    width="100%" height="800"
+                    hide-tabs toolbar="bottom">
                 </tableau-viz>
             </div>
         </section>
 
-        <!-- 2021 Shot Map -->
+        <!-- 2021 SHOT MAP -->
         <section class="story-section" data-viz-index="7">
             <div class="story-content">
                 <h2>🎯 2021 Shot Map</h2>
-                <p>Fast forward to 2021, and the transformation is remarkable. The shot map reveals a league that has fully embraced the three-point shot, with players spreading across the perimeter in ways unimaginable decades ago.</p>
+                <p>
+                    Fast forward to 2021: the shot map reveals a league that has fully embraced the three-point shot,
+                    with players spreading across the perimeter in ways unimaginable decades ago.
+                </p>
             </div>
             <div class="viz-container">
                 <tableau-viz 
                     id="viz-7"
                     src="https://public.tableau.com/views/2021ShotMap/Sheet1"
-                    width="100%" 
-                    height="800"
-                    hide-tabs
-                    toolbar="bottom">
+                    width="100%" height="800"
+                    hide-tabs toolbar="bottom">
                 </tableau-viz>
             </div>
         </section>
 
-        <!-- 2021 Shot Density -->
+        <!-- 2021 SHOT DENSITY -->
         <section class="story-section" data-viz-index="8">
             <div class="story-content">
                 <h2>🌟 2021 Shot Density</h2>
-                <p>The 2021 density map tells the story of basketball's analytics revolution. Notice the dramatic increase in activity beyond the arc and at the rim—the mid-range has become the "inefficient zone" teams now avoid.</p>
+                <p>
+                    The 2021 density map shows dramatic increases in activity beyond the arc and at the rim—the mid-range
+                    has become the "inefficient zone" teams now avoid.
+                </p>
             </div>
             <div class="viz-container">
                 <tableau-viz 
                     id="viz-8"
                     src="https://public.tableau.com/views/2021ShotMap/Sheet2"
-                    width="100%" 
-                    height="800"
-                    hide-tabs
-                    toolbar="bottom">
+                    width="100%" height="800"
+                    hide-tabs toolbar="bottom">
                 </tableau-viz>
             </div>
         </section>
 
-        <!-- 3-Point Attempted Trend -->
+        <!-- THREE-POINT ATTEMPT TREND -->
         <section class="story-section" data-viz-index="9">
             <div class="story-content">
                 <h2>🚀 The Three-Point Revolution</h2>
-                <p>The rise of the three-point shot represents one of basketball's most significant strategic shifts. This visualization tracks the exponential growth in three-point attempts and shooting percentages across the years. What began as a novelty has become fundamental—teams that embraced this change early gained competitive advantages, while those that resisted fell behind. The data reveals not just increased volume, but a consistent improvement in shooting accuracy, proving that players have adapted and mastered this skill at an elite level.</p>
+                <p>
+                    This visualization tracks the exponential growth in three-point attempts and shooting percentages
+                    across the years.
+                </p>
             </div>
             <div class="viz-container">
                 <tableau-viz 
                     id="viz-9"
                     src="https://public.tableau.com/views/TableauVisuals_17628169252610/3PointsAttemptedandPercentageTrend"
-                    width="100%" 
-                    height="800"
-                    hide-tabs
-                    toolbar="bottom">
+                    width="100%" height="800"
+                    hide-tabs toolbar="bottom">
                 </tableau-viz>
             </div>
         </section>
 
-        <!-- 3-Point Efficiency Dashboard -->
+        <!-- THREE-POINT EFFICIENCY -->
         <section class="story-section" data-viz-index="10">
             <div class="story-content">
                 <h2>⚡ Three-Point Efficiency Over Time</h2>
-                <p>Interactive analysis of three-point shooting efficiency reveals not just increased volume, but improved accuracy. Explore how teams and players have mastered the long-range shot through advanced training and analytics. Notice the clustering patterns and outliers—some teams and eras show dramatically better efficiency than others. This dashboard allows you to brush and link between visualizations to understand the relationship between shot volume and success rates. The story here is one of evolution: as the league normalized three-point shooting, the best teams found ways to maintain or improve their efficiency despite defenses specifically preparing for this threat.</p>
+                <p>
+                    Explore how teams and players have mastered the long-range shot through better training and analytics.
+                </p>
             </div>
             <div class="viz-container">
                 <tableau-viz 
                     id="viz-10"
                     src="https://public.tableau.com/views/TableauVisuals_17628169252610/Dashboard1"
-                    width="100%" 
-                    height="800"
-                    hide-tabs
-                    toolbar="bottom">
+                    width="100%" height="800"
+                    hide-tabs toolbar="bottom">
                 </tableau-viz>
             </div>
         </section>
 
+        <!-- POINTS VS 3PA -->
         <section class="story-section" data-viz-index="11">
             <div class="story-content">
                 <h2>Points Scored vs 3-Pointers Attempted</h2>
@@ -238,65 +249,57 @@
                 <tableau-viz 
                     id="viz-11"
                     src="https://public.tableau.com/shared/8HB479DPP?:display_count=n&:origin=viz_share_link"
-                    width="100%" 
-                    height="800"
-                    hide-tabs
-                    toolbar="bottom">
+                    width="100%" height="800"
+                    hide-tabs toolbar="bottom">
                 </tableau-viz>
             </div>
         </section>
 
-        <!-- Salary Analysis Sheet 3 -->
+        <!-- SALARY VISUALIZATION -->
         <section class="story-section" data-viz-index="1">
             <div class="story-content">
                 <h2>📊 Salary Breakdown</h2>
                 <p>
-                    Finally, we turn to the economics of professional basketball by examining how player compensation relates to shooting performance.
-                    In the top visualization, player salaries for each season are grouped into bins based on 3-point percentage (3P%),
-                    allowing you to compare how shooting efficiency aligns with pay within any given year.
-                    The bottom visualization shows how average salaries have evolved over time across the league.
+                    Explore how player compensation trends relate to three-point shooting percentages.
                 </p>
             </div>
             <div class="viz-container">
                 <tableau-viz 
                     id="viz-1"
                     src="https://public.tableau.com/views/Salary_17628163110230/Dashboard1"
-                    width="100%" 
-                    height="800"
-                    hide-tabs
-                    toolbar="bottom">
+                    width="100%" height="800"
+                    hide-tabs toolbar="bottom">
                 </tableau-viz>
             </div>
+
             <div class="story-content">
                 <p>
-                    As expected, overall player salaries rise steadily across the years, but an interesting pattern emerges after roughly 2015:
-                    higher-earning players increasingly cluster in the upper 3P% bins.
-                    In other words, the modern NBA places a growing premium on perimeter shooting,
-                    and many of the league's top earners consistently shoot above 30% from three.
-                    <br><br>
-                    However, this trend does not apply uniformly across all positions.
-                    For example, traditional centers (C) typically attempt fewer three-point shots, so their salary is less correlated with 3P%.
-                    The interactive position filter allows you to highlight or exclude specific roles to better explore these nuances and isolate position-specific salary dynamics.
+                    After 2015, higher-earning players increasingly cluster in the upper 3P% bins, indicating a growing premium
+                    on perimeter shooting—though centers still differ due to role specialization.
                 </p>
             </div>
         </section>
 
-
-        <!-- Conclusion Section -->
+        <!-- CONCLUSION -->
         <section class="story-section" id="conclusion">
             <div class="story-content">
                 <h2>Key Takeaways</h2>
-                <p>From shooting patterns to compensation structures, the data reveals a sport in constant evolution. The NBA has transformed dramatically—driven by analytics, strategy, and an ever-increasing emphasis on efficiency. The three-point revolution hasn't just changed where players shoot; it's fundamentally reshaped how basketball is played, coached, and valued.</p>
+                <p>
+                    From shooting patterns to compensation structures, the data reveals a sport in constant evolution.
+                    Analytics and efficiency have reshaped how basketball is played, coached, and valued.
+                </p>
             </div>
         </section>
+
     </div>
 
-    <!-- Progress Indicator -->
+    <!-- PROGRESS BAR -->
     <div class="progress-bar">
         <div class="progress-fill" id="progress-fill"></div>
     </div>
 
     <script src="js/app.js" defer></script>
     <script src="js/scroll-handler.js" defer></script>
+
 </body>
 </html>
